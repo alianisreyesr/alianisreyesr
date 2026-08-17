@@ -10,7 +10,7 @@
 
 <br/>
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=01696f&center=true&vCenter=true&width=620&lines=B.S.B.A.+CIS+%40+UPRM+%E2%80%94+Dec+2026;Former+Eli+Lilly+Intern+%26+Co-op;GxP+%7C+CSV+%7C+Data+Engineering+%7C+IT+Compliance;Building+auditable+systems+from+data+to+decision.)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=01696f&center=true&vCenter=true&width=620&lines=B.S.B.A.+CIS+%40+UPRM+%E2%80%94+Dec+2026;Former+Eli+Lilly+Intern+%26+Co-op;GxP+%7C+CSV+%7C+CSA+%7C+Data+Integrity;Building+auditable+systems+from+data+to+decision.)
 
 </div>
 
@@ -72,11 +72,11 @@ As a former **Eli Lilly intern and co-op** in manufacturing and logistics, I lea
 **🔬 Quality & GxP Compliance**
 
 ![GxP](https://img.shields.io/badge/GxP-003087?style=flat-square)
-![CSV](https://img.shields.io/badge/CSV%20(Computer%20System%20Validation)-28A745?style=flat-square)
+![CSV](https://img.shields.io/badge/CSV-28A745?style=flat-square)
+![CSA](https://img.shields.io/badge/CSA-0D6EFD?style=flat-square)
 ![GAMP 5](https://img.shields.io/badge/GAMP%205-6A0DAD?style=flat-square)
 ![ALCOA+](https://img.shields.io/badge/ALCOA+-DC3545?style=flat-square)
 ![21 CFR Part 11](https://img.shields.io/badge/21%20CFR%20Part%2011-FF8C00?style=flat-square)
-![IQ/OQ/PQ](https://img.shields.io/badge/IQ%2FOQ%2FPQ-607D8B?style=flat-square)
 
     </td>
   </tr>
@@ -86,44 +86,56 @@ As a former **Eli Lilly intern and co-op** in manufacturing and logistics, I lea
 
 ## 🚀 Featured Projects
 
+### Core (live)
+
 <table>
   <tr>
     <td width="50%">
       <h3 align="center">⚠️ Quality Deviation Risk Monitor</h3>
       <p align="center">
         <a href="https://github.com/alianisreyesr/quality-deviation-risk-monitor"><img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square" /></a>
-        <img src="https://img.shields.io/badge/Domain-GxP%20%7C%20Pharma-003087?style=flat-square" />
-        <img src="https://img.shields.io/badge/Tests-57%20passing-brightgreen?style=flat-square" />
+        <img src="https://img.shields.io/badge/Tests-57-brightgreen?style=flat-square" />
       </p>
-      <p>Full-stack quality deviation prioritization with explainable risk scoring, append-only audit trail (21 CFR Part 11 / ALCOA+), and reviewer dashboard. Synthetic data only.</p>
-      <p><strong>Stack:</strong> Python · FastAPI · Pydantic v2 · SQLite · React · Docker · GitHub Actions</p>
-      <p align="center"><a href="https://github.com/alianisreyesr/quality-deviation-risk-monitor">→ Repository</a></p>
+      <p>Explainable risk scoring, append-only audit trail, reviewer dashboard. Synthetic GxP-style deviations.</p>
+      <p align="center"><a href="https://github.com/alianisreyesr/quality-deviation-risk-monitor">→ Repo</a></p>
     </td>
     <td width="50%">
       <h3 align="center">📋 CSV Evidence Tracker</h3>
       <p align="center">
         <a href="https://github.com/alianisreyesr/csv-evidence-tracker"><img src="https://img.shields.io/badge/Status-Live-brightgreen?style=flat-square" /></a>
-        <img src="https://img.shields.io/badge/Domain-Validation%20%7C%20Compliance-28A745?style=flat-square" />
       </p>
-      <p>Requirements traceability matrix (RTM), IQ/OQ/PQ test execution, deviation log, and audit-trail-oriented workflow for Computer System Validation. Portfolio-safe prototype.</p>
-      <p><strong>Stack:</strong> Python · FastAPI · React · SQLite · Docker Compose · Nginx</p>
-      <p align="center"><a href="https://github.com/alianisreyesr/csv-evidence-tracker">→ Repository</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" colspan="2">
-      <h3 align="center">🎓 Student Assembly Registration System</h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Status-Portfolio%20Version%20In%20Progress-gray?style=flat-square" />
-        <img src="https://img.shields.io/badge/Domain-Institutional%20Systems-607D8B?style=flat-square" />
-      </p>
-      <p align="center">Role-based access control, institutional validation logic, full CRUD with audit logging. Built for a real university use case.</p>
-      <p align="center"><strong>Stack:</strong> PHP · MySQL · JavaScript</p>
+      <p>RTM, IQ/OQ/PQ execution patterns, deviation log, audit-oriented evidence for Computer System Validation.</p>
+      <p align="center"><a href="https://github.com/alianisreyesr/csv-evidence-tracker">→ Repo</a></p>
     </td>
   </tr>
 </table>
 
-> 🔒 All public projects use **synthetic or non-confidential data**. No proprietary information from current or former employers.
+### Building next (scaffold + regulatory docs)
+
+<table>
+  <tr>
+    <td width="33%">
+      <h3 align="center">🔁 GxP Change Control</h3>
+      <p align="center"><img src="https://img.shields.io/badge/Status-Scaffold-orange?style=flat-square" /></p>
+      <p>Change request → impact → approval → implementation → post-change verification.</p>
+      <p align="center"><a href="https://github.com/alianisreyesr/gxp-change-control">→ Repo</a></p>
+    </td>
+    <td width="33%">
+      <h3 align="center">🛡️ CSA Assurance Planner</h3>
+      <p align="center"><img src="https://img.shields.io/badge/Status-Scaffold-orange?style=flat-square" /></p>
+      <p>Risk-based Computer Software Assurance plans aligned with FDA CSA guidance themes.</p>
+      <p align="center"><a href="https://github.com/alianisreyesr/csa-assurance-planner">→ Repo</a></p>
+    </td>
+    <td width="33%">
+      <h3 align="center">🔍 Data Integrity Case File</h3>
+      <p align="center"><img src="https://img.shields.io/badge/Status-Scaffold-orange?style=flat-square" /></p>
+      <p>ALCOA+ investigation workspace: findings, evidence, CAPA readiness (synthetic cases).</p>
+      <p align="center"><a href="https://github.com/alianisreyesr/data-integrity-case-file">→ Repo</a></p>
+    </td>
+  </tr>
+</table>
+
+> 🔒 All public projects use **synthetic or non-confidential data**. No proprietary employer information. English primary docs + Spanish summaries where noted.
 
 ---
 
@@ -142,10 +154,10 @@ As a former **Eli Lilly intern and co-op** in manufacturing and logistics, I lea
 
 | What | Detail |
 |------|--------|
-| 🏗️ Building | **CSV Evidence Tracker** + continuous hardening of **Quality Deviation Risk Monitor** |
-| 📚 Learning | Data engineering patterns for regulated systems & validation evidence design |
-| 💼 Exploring | New-grad programs: **Pfizer · Eli Lilly · Amgen · J&J · Roche · Novartis** |
-| 🎯 Target roles | Quality Data Engineer · CSV Analyst · Analytics Engineer · IT Compliance |
+| 🏗️ Building | **Change Control · CSA Planner · DI Case File** (docs → domain → API → UI) |
+| ✅ Live | Quality Deviation Risk Monitor · CSV Evidence Tracker |
+| 📚 Focus | FDA Part 11 · CSA · ALCOA+ · PIC/S · Annex 11 literacy in code + docs |
+| 🎯 Roles | Quality Data Engineer · CSV Analyst · Analytics Engineer · IT Compliance |
 
 ---
 
