@@ -66,6 +66,7 @@ As a former **Eli Lilly intern and co-op** in manufacturing and logistics, I lea
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 **🔬 Quality & GxP Compliance**
@@ -90,20 +91,23 @@ As a former **Eli Lilly intern and co-op** in manufacturing and logistics, I lea
     <td width="50%">
       <h3 align="center">⚠️ Quality Deviation Risk Monitor</h3>
       <p align="center">
-        <img src="https://img.shields.io/badge/Status-In%20Development-orange?style=flat-square" />
+        <a href="https://github.com/alianisreyesr/quality-deviation-risk-monitor"><img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square" /></a>
         <img src="https://img.shields.io/badge/Domain-GxP%20%7C%20Pharma-003087?style=flat-square" />
+        <img src="https://img.shields.io/badge/Tests-57%20passing-brightgreen?style=flat-square" />
       </p>
-      <p>Risk signal detection, data lineage tracking, and human review queue for GxP-regulated environments. Built with full audit trail support.</p>
-      <p><strong>Stack:</strong> Python · FastAPI · SQL · Power BI</p>
+      <p>Full-stack quality deviation prioritization with explainable risk scoring, append-only audit trail (21 CFR Part 11 / ALCOA+), and reviewer dashboard. Synthetic data only.</p>
+      <p><strong>Stack:</strong> Python · FastAPI · Pydantic v2 · SQLite · React · Docker · GitHub Actions</p>
+      <p align="center"><a href="https://github.com/alianisreyesr/quality-deviation-risk-monitor">→ Repository</a></p>
     </td>
     <td width="50%">
       <h3 align="center">📋 CSV Evidence Tracker</h3>
       <p align="center">
-        <img src="https://img.shields.io/badge/Status-Planned-blue?style=flat-square" />
+        <a href="https://github.com/alianisreyesr/csv-evidence-tracker"><img src="https://img.shields.io/badge/Status-Live-brightgreen?style=flat-square" /></a>
         <img src="https://img.shields.io/badge/Domain-Validation%20%7C%20Compliance-28A745?style=flat-square" />
       </p>
-      <p>Requirements traceability matrix, test execution log, deviation management, and immutable audit trail for Computer System Validation.</p>
-      <p><strong>Stack:</strong> Python · React · MySQL</p>
+      <p>Requirements traceability matrix (RTM), IQ/OQ/PQ test execution, deviation log, and audit-trail-oriented workflow for Computer System Validation. Portfolio-safe prototype.</p>
+      <p><strong>Stack:</strong> Python · FastAPI · React · SQLite · Docker Compose · Nginx</p>
+      <p align="center"><a href="https://github.com/alianisreyesr/csv-evidence-tracker">→ Repository</a></p>
     </td>
   </tr>
   <tr>
@@ -138,7 +142,7 @@ As a former **Eli Lilly intern and co-op** in manufacturing and logistics, I lea
 
 | What | Detail |
 |------|--------|
-| 🏗️ Building | **Quality Deviation Risk Monitor** — GxP-ready pipeline with Python + FastAPI + Power BI |
+| 🏗️ Building | **CSV Evidence Tracker** + continuous hardening of **Quality Deviation Risk Monitor** |
 | 📚 Learning | Data engineering patterns for regulated systems & validation evidence design |
 | 💼 Exploring | New-grad programs: **Pfizer · Eli Lilly · Amgen · J&J · Roche · Novartis** |
 | 🎯 Target roles | Quality Data Engineer · CSV Analyst · Analytics Engineer · IT Compliance |
