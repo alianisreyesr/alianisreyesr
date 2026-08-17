@@ -90,7 +90,7 @@ As a former **Eli Lilly intern and co-op** in manufacturing and logistics, I lea
 
 <table>
   <tr>
-    <td width="50%">
+    <td width="33%">
       <h3 align="center">⚠️ Quality Deviation Risk Monitor</h3>
       <p align="center">
         <a href="https://github.com/alianisreyesr/quality-deviation-risk-monitor"><img src="https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square" /></a>
@@ -99,13 +99,22 @@ As a former **Eli Lilly intern and co-op** in manufacturing and logistics, I lea
       <p>Explainable risk scoring, append-only audit trail, reviewer dashboard. Synthetic GxP-style deviations.</p>
       <p align="center"><a href="https://github.com/alianisreyesr/quality-deviation-risk-monitor">→ Repo</a></p>
     </td>
-    <td width="50%">
+    <td width="33%">
       <h3 align="center">📋 CSV Evidence Tracker</h3>
       <p align="center">
         <a href="https://github.com/alianisreyesr/csv-evidence-tracker"><img src="https://img.shields.io/badge/Status-Live-brightgreen?style=flat-square" /></a>
       </p>
       <p>RTM, IQ/OQ/PQ execution patterns, deviation log, audit-oriented evidence for Computer System Validation.</p>
       <p align="center"><a href="https://github.com/alianisreyesr/csv-evidence-tracker">→ Repo</a></p>
+    </td>
+    <td width="33%">
+      <h3 align="center">🔁 GxP Change Control</h3>
+      <p align="center">
+        <a href="https://github.com/alianisreyesr/gxp-change-control/releases/tag/v1.0.0"><img src="https://img.shields.io/badge/Release-v1.0.0-brightgreen?style=flat-square" /></a>
+        <img src="https://img.shields.io/badge/Tests-68-brightgreen?style=flat-square" />
+      </p>
+      <p>Controlled change lifecycle, impact assessment, approve/reject/request-info decisions, UTC activity evidence, and gate-verified releases.</p>
+      <p align="center"><a href="https://github.com/alianisreyesr/gxp-change-control">→ Repo</a> · <a href="https://github.com/alianisreyesr/gxp-change-control/releases/tag/v1.0.0">Release</a></p>
     </td>
   </tr>
 </table>
@@ -114,19 +123,13 @@ As a former **Eli Lilly intern and co-op** in manufacturing and logistics, I lea
 
 <table>
   <tr>
-    <td width="33%">
-      <h3 align="center">🔁 GxP Change Control</h3>
-      <p align="center"><img src="https://img.shields.io/badge/Status-Scaffold-orange?style=flat-square" /></p>
-      <p>Change request → impact → approval → implementation → post-change verification.</p>
-      <p align="center"><a href="https://github.com/alianisreyesr/gxp-change-control">→ Repo</a></p>
-    </td>
-    <td width="33%">
+    <td width="50%">
       <h3 align="center">🛡️ CSA Assurance Planner</h3>
       <p align="center"><img src="https://img.shields.io/badge/Status-Scaffold-orange?style=flat-square" /></p>
       <p>Risk-based Computer Software Assurance plans aligned with FDA CSA guidance themes.</p>
       <p align="center"><a href="https://github.com/alianisreyesr/csa-assurance-planner">→ Repo</a></p>
     </td>
-    <td width="33%">
+    <td width="50%">
       <h3 align="center">🔍 Data Integrity Case File</h3>
       <p align="center"><img src="https://img.shields.io/badge/Status-Scaffold-orange?style=flat-square" /></p>
       <p>ALCOA+ investigation workspace: findings, evidence, CAPA readiness (synthetic cases).</p>
@@ -154,8 +157,8 @@ As a former **Eli Lilly intern and co-op** in manufacturing and logistics, I lea
 
 | What | Detail |
 |------|--------|
-| 🏗️ Building | **Change Control · CSA Planner · DI Case File** (docs → domain → API → UI) |
-| ✅ Live | Quality Deviation Risk Monitor · CSV Evidence Tracker |
+| 🏗️ Building | **CSA Planner · DI Case File** (docs → domain → API → UI) |
+| ✅ Live | Quality Deviation Risk Monitor · CSV Evidence Tracker · GxP Change Control v1.0.0 |
 | 📚 Focus | FDA Part 11 · CSA · ALCOA+ · PIC/S · Annex 11 literacy in code + docs |
 | 🎯 Roles | Quality Data Engineer · CSV Analyst · Analytics Engineer · IT Compliance |
 
