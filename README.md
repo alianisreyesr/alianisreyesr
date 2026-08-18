@@ -35,34 +35,46 @@ I build end-to-end data and workflow systems for environments where **traceabili
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h3><a href="https://github.com/alianisreyesr/gxp-change-control">GxP Change Control</a></h3>
-      <p>Controlled change lifecycle application with risk and impact assessments, multi-role approval gates, immutable UTC activity logs, and release verification.</p>
-      <p><strong>Technical evidence</strong><br/>
-      • <a href="https://github.com/alianisreyesr/gxp-change-control/releases/tag/v1.0.0">v1.0.0 release</a><br/>
-      • 68 automated backend &amp; UI tests<br/>
-      • GitHub Actions CI, CodeQL scanning, Docker containerization</p>
-      <p><strong>Stack</strong><br/>
-      FastAPI · React 19 · TypeScript · SQLite · Docker</p>
+      <div align="center">
+        <h3><a href="https://github.com/alianisreyesr/gxp-change-control">GxP Change Control</a></h3>
+        <p>
+          <img src="https://img.shields.io/badge/Release-v1.0.0-2E7D32?style=flat-square" alt="Release v1.0.0" />
+          <img src="https://img.shields.io/badge/Tests-68_passing-2E7D32?style=flat-square" alt="68 Tests" />
+        </p>
+      </div>
+      <p>Controlled change lifecycle application with impact assessment, multi-role approval gates, immutable UTC audit trail, and release verification.</p>
+      <p><b>Architecture:</b> FastAPI · React 19 · TypeScript · SQLite · Docker</p>
+      <div align="center">
+        <a href="https://github.com/alianisreyesr/gxp-change-control"><b>View repository →</b></a>
+      </div>
     </td>
     <td width="33%" valign="top">
-      <h3><a href="https://github.com/alianisreyesr/quality-deviation-risk-monitor">Quality Deviation Risk Monitor</a></h3>
-      <p>Proactive deviation monitoring system with explainable risk scoring, reviewer triage workflows, and an append-only audit trail built on synthetic GxP data.</p>
-      <p><strong>Technical evidence</strong><br/>
-      • 57 automated unit and integration tests<br/>
-      • Append-only audit logging &amp; deterministic risk engine<br/>
-      • Automated CI pipeline with test coverage</p>
-      <p><strong>Stack</strong><br/>
-      Python · FastAPI · React · SQLite · Docker</p>
+      <div align="center">
+        <h3><a href="https://github.com/alianisreyesr/quality-deviation-risk-monitor">Deviation Risk Monitor</a></h3>
+        <p>
+          <img src="https://img.shields.io/badge/Status-Active-2E7D32?style=flat-square" alt="Status Active" />
+          <img src="https://img.shields.io/badge/Tests-57_passing-2E7D32?style=flat-square" alt="57 Tests" />
+        </p>
+      </div>
+      <p>Proactive deviation monitoring system with explainable risk scoring, reviewer triage workflow, append-only audit trail, and synthetic data pipeline.</p>
+      <p><b>Architecture:</b> Python · FastAPI · React · SQLite · Docker</p>
+      <div align="center">
+        <a href="https://github.com/alianisreyesr/quality-deviation-risk-monitor"><b>View repository →</b></a>
+      </div>
     </td>
     <td width="33%" valign="top">
-      <h3><a href="https://github.com/alianisreyesr/csv-evidence-tracker">CSV Evidence Tracker</a></h3>
-      <p>Computer System Validation tracking system covering Requirements Traceability Matrices (RTM), IQ/OQ/PQ protocol execution patterns, and deviation logging.</p>
-      <p><strong>Technical evidence</strong><br/>
-      • Explicit validation boundary &amp; ALCOA+ compliance<br/>
-      • Audit-ready test execution reports<br/>
-      • Containerized multi-service deployment</p>
-      <p><strong>Stack</strong><br/>
-      FastAPI · React · SQLite · Docker · Nginx</p>
+      <div align="center">
+        <h3><a href="https://github.com/alianisreyesr/csv-evidence-tracker">CSV Evidence Tracker</a></h3>
+        <p>
+          <img src="https://img.shields.io/badge/Status-Live-2E7D32?style=flat-square" alt="Status Live" />
+          <img src="https://img.shields.io/badge/ALCOA+-Verified-2E7D32?style=flat-square" alt="ALCOA+ Verified" />
+        </p>
+      </div>
+      <p>Computer System Validation tracking system covering Requirements Traceability Matrices (RTM), IQ/OQ/PQ execution patterns, and deviation logs.</p>
+      <p><b>Architecture:</b> FastAPI · React · SQLite · Docker · Nginx</p>
+      <div align="center">
+        <a href="https://github.com/alianisreyesr/csv-evidence-tracker"><b>View repository →</b></a>
+      </div>
     </td>
   </tr>
 </table>
