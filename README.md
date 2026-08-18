@@ -137,8 +137,8 @@ I am currently an **MQ Data Engineer Intern** on Eli Lilly's Global Information 
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=alianisreyesr&show_icons=true&theme=default&hide_border=true&count_private=true" width="49%" alt="GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alianisreyesr&layout=compact&hide_border=true&theme=default" width="38%" alt="Top languages" />
+<img src="https://github-readme-stats.vercel.app/api?username=alianisreyesr&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800" width="49%" alt="GitHub stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alianisreyesr&layout=compact&hide_border=true&theme=tokyonight&cache_seconds=1800" width="38%" alt="Top languages" />
 
 </div>
 
