@@ -29,15 +29,15 @@ I am completing a B.S.B.A. in Computerized Information Systems at the **Universi
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h4>🏗️ Data &amp; Pipelines</h4>
+      <h4>Data &amp; Pipelines</h4>
       <p>SQL &amp; Python ETL pipelines, data lineage modeling, metadata catalogs, Amazon Redshift, and decision-ready Power BI reporting.</p>
     </td>
     <td width="33%" valign="top">
-      <h4>🛡️ GxP &amp; CSV Compliance</h4>
+      <h4>GxP &amp; CSV Compliance</h4>
       <p>ALCOA+ data integrity, 21 CFR Part 11, GAMP 5 risk assessments, IQ/OQ execution patterns, and audit trail architecture.</p>
     </td>
     <td width="33%" valign="top">
-      <h4>⚙️ Full-Stack &amp; Automation</h4>
+      <h4>Full-Stack &amp; Automation</h4>
       <p>FastAPI microservices, accessible React frontends, Dockerized deployments, and automated workflow integrations.</p>
     </td>
   </tr>
