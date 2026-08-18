@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">Alianis Reyes-Reyes - Data Engineering, Quality and IT Systems</title>
+  <desc id="desc">Professional portfolio header with a dark technical grid and teal, blue and violet orbital data paths.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.55" stop-color="#101936"/>
+      <stop offset="1" stop-color="#0b1020"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#2aa8ad"/>
+      <stop offset="0.5" stop-color="#4b82d0"/>
+      <stop offset="1" stop-color="#7842df"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#91a3c0" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="420" rx="28" fill="url(#bg)"/>
+  <rect width="1280" height="420" rx="28" fill="url(#grid)"/>
+  <circle cx="1120" cy="34" r="250" fill="#6f3bd1" opacity="0.08"/>
+  <circle cx="78" cy="390" r="260" fill="#2aa8ad" opacity="0.07"/>
+
+  <g transform="translate(80 65)" fill="none" stroke-linecap="round">
+    <ellipse cx="170" cy="145" rx="132" ry="60" transform="rotate(31 170 145)" stroke="#2aa8ad" stroke-width="10"/>
+    <ellipse cx="170" cy="145" rx="132" ry="60" transform="rotate(-47 170 145)" stroke="#7842df" stroke-width="10"/>
+    <ellipse cx="170" cy="145" rx="132" ry="60" transform="rotate(79 170 145)" stroke="#26376d" stroke-width="10"/>
+    <circle cx="170" cy="145" r="50" fill="#1c2a53" stroke="url(#accent)" stroke-width="3"/>
+    <circle cx="61" cy="70" r="15" fill="#2aa8ad" stroke="none" filter="url(#glow)"/>
+    <circle cx="278" cy="75" r="15" fill="#7842df" stroke="none" filter="url(#glow)"/>
+    <circle cx="159" cy="275" r="15" fill="#4b82d0" stroke="none" filter="url(#glow)"/>
+  </g>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="460" y="112" fill="#8aa0bf" font-size="16" font-weight="700" letter-spacing="4">PORTFOLIO / 2026</text>
+    <text x="460" y="178" fill="#f4f7fb" font-size="48" font-weight="700" letter-spacing="0.5">Alianis Reyes-Reyes</text>
+    <rect x="460" y="205" width="640" height="3" rx="2" fill="url(#accent)"/>
+    <text x="460" y="251" fill="#c7d2e5" font-size="22" font-weight="500">Data Engineering · Quality &amp; IT Systems · Analytics &amp; AI Enablement</text>
+    <text x="460" y="302" fill="#91a3c0" font-size="16" letter-spacing="1.2">UPRM  ·  ELI LILLY EXPERIENCE  ·  GxP VALIDATION  ·  PUERTO RICO</text>
+    <text x="460" y="348" fill="#42c3c8" font-size="15" font-weight="700" letter-spacing="2.2">ENGINEERING TRUST INTO DATA, SYSTEMS AND DECISIONS</text>
+  </g>
+
+  <rect x="1.5" y="1.5" width="1277" height="417" rx="26.5" fill="none" stroke="url(#accent)" stroke-opacity="0.42" stroke-width="3"/>
+</svg>
