@@ -6,9 +6,9 @@
 [![Portfolio](https://img.shields.io/badge/Digital_Portfolio-View_Profile-12192f?style=for-the-badge)](https://poplme.co/hash/aJvjFE0Z/1/es)
 [![GitHub](https://img.shields.io/badge/GitHub-Project_Portfolio-24292f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alianisreyesr?tab=repositories)
 
-**Information Systems senior at UPRM · Open to relocation · English / Spanish**
+**Quality Data Engineer · GxP Systems & CSV · Information Systems senior at UPRM · Open to relocation · English / Spanish**
 
-[Profile](#professional-profile) · [Projects](#featured-engineering-portfolio) · [Experience](#experience-and-impact) · [Technical depth](#technical-depth) · [Education](#education-credentials-and-leadership)
+[Profile](#professional-profile) · [Projects](#featured-engineering-portfolio) · [Experience](#experience-and-impact) · [Technologies](#technologies-and-skills) · [Education](#education-credentials-and-leadership)
 
 </div>
 
@@ -16,7 +16,7 @@
 
 I build end-to-end data products for environments where **traceability, explainability and control matter**. My work connects SQL and Python pipelines, FastAPI services, accessible React interfaces and containerized deployments with the discipline required in regulated operations: GAMP 5, ALCOA+, risk-based validation and human-in-the-loop AI controls.
 
-My background spans three progressive assignments with **Eli Lilly**, GxP infrastructure qualification with **OcyonBio**, operational automation, IT systems and technical outreach. I am pursuing a B.S.B.A. in Computerized Information Systems at the University of Puerto Rico, Mayagüez, graduating in December 2026.
+I am currently an **MQ Data Engineer Intern** on Eli Lilly's Global Information Systems Quality - Global Processes Excellence team in Indianapolis (May 2026 - Present), following two prior progressive assignments as a Tech@Lilly Central intern and co-op in Indianapolis and Puerto Rico. I also lead **Flow Metrics Studio**, my own KPI and reporting-automation practice, and previously supported GxP infrastructure qualification with **OcyonBio**. I am pursuing a B.S.B.A. in Computerized Information Systems at the University of Puerto Rico, Mayagüez, graduating in December 2026.
 
 <table>
   <tr>
@@ -59,9 +59,9 @@ My background spans three progressive assignments with **Eli Lilly**, GxP infras
 ## Experience and impact
 
 <table>
-  <tr><td width="22%" valign="top"><strong>Eli Lilly and Company</strong><br/><sub>Three progressive assignments</sub></td><td valign="top">Modeled enterprise quality data and lineage; built an end-to-end deviation-risk prototype; deployed with Docker, Flux, Argo CD, Kubernetes and AWS Secrets Manager; automated logistics ingestion; delivered global supply-chain Power BI reporting.</td></tr>
+  <tr><td width="22%" valign="top"><strong>Eli Lilly and Company</strong><br/><sub>MQ Data Engineer Intern - Global Information Systems Quality<br/>May 2026 - Present · Indianapolis</sub></td><td valign="top">Modeling enterprise quality data and lineage for Global Processes Excellence; building on prior work deploying a deviation-risk prototype with Docker, Flux, Argo CD, Kubernetes and AWS Secrets Manager, automating logistics ingestion, and delivering global supply-chain Power BI reporting across three progressive assignments (Tech@Lilly Central intern and co-op, Indianapolis and Puerto Rico).</td></tr>
+  <tr><td width="22%" valign="top"><strong>Flow Metrics Studio</strong><br/><sub>Founder · January 2026 - Present · Remote</sub></td><td valign="top">Designs KPI frameworks, dashboards and automated reporting systems that turn unstructured operational inputs into structured, decision-ready data.</td></tr>
   <tr><td width="22%" valign="top"><strong>OcyonBio</strong><br/><sub>IT Validation - GxP</sub></td><td valign="top">Led the ITAM evaluation scope; translated SOP controls into system design; supported IQ/OQ for firewalls, VLANs, directory services, VPN and virtualization; authored audit-ready SOPs and GAMP 5 risk assessments.</td></tr>
-  <tr><td width="22%" valign="top"><strong>Flow Metrics Studio</strong><br/><sub>Founder</sub></td><td valign="top">Designs KPI frameworks, dashboards and automated reporting systems that turn unstructured operational inputs into structured, decision-ready data.</td></tr>
 </table>
 
 <details>
@@ -78,19 +78,69 @@ My background spans three progressive assignments with **Eli Lilly**, GxP infras
 
 <img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/section-divider.svg" width="100%" height="26" alt="" />
 
-## Technical depth
+## Technologies and skills
 
-<table>
-  <tr>
-    <td width="50%" valign="top"><h3>Data engineering and analytics</h3>Python · pandas · SQL · Amazon Redshift · DuckDB · MySQL · ETL · data modeling · lineage · metadata models · Power BI · DAX · Power Query</td>
-    <td width="50%" valign="top"><h3>Software engineering</h3>FastAPI · React · TypeScript · JavaScript · Java · C# · PHP · COBOL · HTML/CSS · Bash · REST APIs · Git/GitHub</td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top"><h3>Cloud, DevOps and infrastructure</h3>Docker · Kubernetes · Argo CD · Flux/GitOps · AWS Secrets Manager · ECR · Linux · Proxmox · Active Directory · VLANs · firewall/VPN · Observium · FortiAnalyzer</td>
-    <td width="50%" valign="top"><h3>Quality and regulatory</h3>CSV · CSA · IQ/OQ · GAMP 5 · 21 CFR Part 11 and Part 820 · ALCOA+ · deviation and CAPA · change control · ITAM controls · SOP authoring · audit-evidence design</td>
-  </tr>
-  <tr><td colspan="2" valign="top"><h3>AI and automation</h3>RAG · LLM prompt design and evaluation · enterprise LLM APIs · Azure Entra authentication · human-in-the-loop design · ServiceNow integration · Power Automate · SharePoint Lists</td></tr>
-</table>
+<div align="center">
+
+**Data engineering and analytics**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Redshift](https://img.shields.io/badge/Amazon_Redshift-8C4FFF?style=flat-square&logo=amazon-redshift&logoColor=white)
+![DuckDB](https://img.shields.io/badge/DuckDB-FFF000?style=flat-square&logo=duckdb&logoColor=black)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+
+**Software engineering**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
+**Cloud, DevOps and infrastructure**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![ArgoCD](https://img.shields.io/badge/Argo_CD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white)
+
+**Quality and regulatory**
+
+![GAMP 5](https://img.shields.io/badge/GAMP_5-CSV-2E7D32?style=flat-square)
+![21 CFR Part 11](https://img.shields.io/badge/21_CFR-Part_11_%2F_820-2E7D32?style=flat-square)
+![ALCOA+](https://img.shields.io/badge/ALCOA%2B-Data_Integrity-2E7D32?style=flat-square)
+![CAPA](https://img.shields.io/badge/Deviation_%26_CAPA-2E7D32?style=flat-square)
+![Change Control](https://img.shields.io/badge/Change_Control-2E7D32?style=flat-square)
+
+**AI and automation**
+
+![RAG](https://img.shields.io/badge/RAG-6E56CF?style=flat-square)
+![LLM](https://img.shields.io/badge/LLM_Prompt_Design-6E56CF?style=flat-square)
+![Power Automate](https://img.shields.io/badge/Power_Automate-0066FF?style=flat-square&logo=powerautomate&logoColor=white)
+![ServiceNow](https://img.shields.io/badge/ServiceNow-293E40?style=flat-square&logo=servicenow&logoColor=white)
+
+</div>
+
+<img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/section-divider.svg" width="100%" height="26" alt="" />
+
+## GitHub activity
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=alianisreyesr&show_icons=true&theme=default&hide_border=true&count_private=true" width="49%" alt="GitHub stats" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alianisreyesr&layout=compact&hide_border=true&theme=default" width="38%" alt="Top languages" />
+
+</div>
 
 <img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/section-divider.svg" width="100%" height="26" alt="" />
 
