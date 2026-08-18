@@ -6,6 +6,9 @@
 [![Portfolio](https://img.shields.io/badge/Digital_Portfolio-View_Profile-12192f?style=for-the-badge)](https://poplme.co/hash/aJvjFE0Z/1/es)
 [![GitHub](https://img.shields.io/badge/GitHub-Project_Portfolio-24292f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alianisreyesr?tab=repositories)
 
+**Completing B.S.B.A. in Computerized Information Systems · December 2026**  
+**Seeking full-time Quality Data Engineering, Data/Analytics Engineering, GxP/CSV, or IT Compliance opportunities · Open to relocate**
+
 [Profile](#professional-profile) · [Projects](#featured-engineering-portfolio) · [Experience](#experience-and-impact) · [Technologies](#technologies-and-skills) · [Education](#education-credentials-and-leadership)
 
 </div>
@@ -14,7 +17,7 @@
 
 I build end-to-end data products for environments where **traceability, explainability and control matter**. My work connects SQL and Python pipelines, FastAPI services, accessible React interfaces and containerized deployments with the discipline required in regulated operations: GAMP 5, ALCOA+, risk-based validation and human-in-the-loop AI controls.
 
-I am currently an **MQ Data Engineer Intern** on Eli Lilly's Global Information Systems Quality - Global Processes Excellence team in Indianapolis (May 2026 - Present), following two prior progressive assignments as a Tech@Lilly Central intern and co-op in Indianapolis and Puerto Rico. I also lead **Flow Metrics Studio**, my own KPI and reporting-automation practice, and previously supported GxP infrastructure qualification with **OcyonBio**. I am pursuing a B.S.B.A. in Computerized Information Systems at the University of Puerto Rico, Mayagüez, graduating in December 2026.
+I am completing a B.S.B.A. in Computerized Information Systems at the University of Puerto Rico, Mayagüez, graduating in December 2026. I completed three progressive assignments with **Eli Lilly**—including MQ Data Engineering on Global Information Systems Quality - Global Processes Excellence in Indianapolis—alongside GxP infrastructure qualification with **OcyonBio**. I also lead **Flow Metrics Studio**, my KPI and reporting-automation practice. I am seeking full-time opportunities in Quality Data Engineering, Data/Analytics Engineering, GxP/CSV, or IT Compliance and am open to relocate.
 
 <table>
   <tr>
@@ -57,7 +60,7 @@ I am currently an **MQ Data Engineer Intern** on Eli Lilly's Global Information 
 ## Experience and impact
 
 <table>
-  <tr><td width="22%" valign="top"><strong>Eli Lilly and Company</strong><br/><sub>MQ Data Engineer Intern - Global Information Systems Quality<br/>May 2026 - Present · Indianapolis</sub></td><td valign="top">Modeling enterprise quality data and lineage for Global Processes Excellence; building on prior work deploying a deviation-risk prototype with Docker, Flux, Argo CD, Kubernetes and AWS Secrets Manager, automating logistics ingestion, and delivering global supply-chain Power BI reporting across three progressive assignments (Tech@Lilly Central intern and co-op, Indianapolis and Puerto Rico).</td></tr>
+  <tr><td width="22%" valign="top"><strong>Eli Lilly and Company</strong><br/><sub>MQ Data Engineer Intern - Global Information Systems Quality<br/>May 2026 - August 2026 · Indianapolis</sub></td><td valign="top">Modeling enterprise quality data and lineage for Global Processes Excellence; building on prior work deploying a deviation-risk prototype with Docker, Flux, Argo CD, Kubernetes and AWS Secrets Manager, automating logistics ingestion, and delivering global supply-chain Power BI reporting across three progressive assignments (Tech@Lilly Central intern and co-op, Indianapolis and Puerto Rico).</td></tr>
   <tr><td width="22%" valign="top"><strong>Flow Metrics Studio</strong><br/><sub>Founder · January 2026 - Present · Remote</sub></td><td valign="top">Designs KPI frameworks, dashboards and automated reporting systems that turn unstructured operational inputs into structured, decision-ready data.</td></tr>
   <tr><td width="22%" valign="top"><strong>OcyonBio</strong><br/><sub>IT Validation - GxP</sub></td><td valign="top">Led the ITAM evaluation scope; translated SOP controls into system design; supported IQ/OQ for firewalls, VLANs, directory services, VPN and virtualization; authored audit-ready SOPs and GAMP 5 risk assessments.</td></tr>
 </table>
@@ -133,12 +136,18 @@ I am currently an **MQ Data Engineer Intern** on Eli Lilly's Global Information 
 
 ## GitHub activity
 
-<div align="center">
+<table>
+  <tr>
+    <td align="center" width="25%"><h3>3</h3><sub>Flagship quality-engineering systems</sub></td>
+    <td align="center" width="25%"><h3>125+</h3><sub>Automated tests across public projects</sub></td>
+    <td align="center" width="25%"><h3>CI/CD</h3><sub>GitHub Actions · CodeQL · Docker</sub></td>
+    <td align="center" width="25%"><h3>Open</h3><sub>Synthetic-data portfolio projects</sub></td>
+  </tr>
+</table>
 
-<img src="https://github-readme-stats.vercel.app/api?username=alianisreyesr&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800" width="49%" alt="GitHub stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=alianisreyesr&layout=compact&hide_border=true&theme=tokyonight&cache_seconds=1800" width="38%" alt="Top languages" />
-
-</div>
+<p align="center">
+  <a href="https://github.com/alianisreyesr?tab=repositories">Explore my repositories →</a>
+</p>
 
 <img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/section-divider.svg" width="100%" height="26" alt="" />
 
