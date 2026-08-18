@@ -8,6 +8,8 @@
 
 **Information Systems senior at UPRM · Open to relocation · English / Spanish**
 
+[Profile](#professional-profile) · [Projects](#featured-engineering-portfolio) · [Experience](#experience-and-impact) · [Technical depth](#technical-depth) · [Education](#education-credentials-and-leadership)
+
 </div>
 
 ## Professional profile
@@ -18,39 +20,29 @@ My background spans three progressive assignments with **Eli Lilly**, GxP infras
 
 <table>
   <tr>
-    <td align="center" width="25%"><strong>3</strong><br/>Progressive Eli Lilly assignments</td>
-    <td align="center" width="25%"><strong>50%</strong><br/>Administrative time reduced</td>
-    <td align="center" width="25%"><strong>80%</strong><br/>Calculation errors reduced</td>
-    <td align="center" width="25%"><strong>125+</strong><br/>Automated tests across flagship projects</td>
+    <td align="center" width="25%"><h3>3</h3><sub>Progressive Eli Lilly assignments</sub></td>
+    <td align="center" width="25%"><h3>50%</h3><sub>Administrative time reduced</sub></td>
+    <td align="center" width="25%"><h3>80%</h3><sub>Calculation errors reduced</sub></td>
+    <td align="center" width="25%"><h3>125+</h3><sub>Automated tests across flagship projects</sub></td>
   </tr>
 </table>
+
+<img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/career-flow.svg" width="100%" alt="Career signal from systems foundations to measurable impact" />
+
+<img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/section-divider.svg" width="100%" height="26" alt="" />
 
 ## Featured engineering portfolio
 
 <table>
   <tr>
-    <td width="33%" valign="top">
-      <h3><a href="https://github.com/alianisreyesr/gxp-change-control">GxP Change Control</a></h3>
-      <p>Controlled-change workflow with impact assessment, approval gates, UTC activity evidence and release verification.</p>
-      <p><strong>Evidence</strong><br/>v1.0.0 · 68 tests · CI · CodeQL · Docker · dependency audits</p>
-      <p><strong>Stack</strong><br/>FastAPI · React 19 · TypeScript · SQLite</p>
-    </td>
-    <td width="33%" valign="top">
-      <h3><a href="https://github.com/alianisreyesr/quality-deviation-risk-monitor">Quality Deviation Risk Monitor</a></h3>
-      <p>Explainable risk scoring and reviewer workflow for proactive monitoring of open quality deviations.</p>
-      <p><strong>Evidence</strong><br/>57 tests · append-only audit trail · synthetic data · GitHub Actions</p>
-      <p><strong>Stack</strong><br/>FastAPI · React · SQLite · Docker</p>
-    </td>
-    <td width="33%" valign="top">
-      <h3><a href="https://github.com/alianisreyesr/csv-evidence-tracker">CSV Evidence Tracker</a></h3>
-      <p>Requirements traceability, IQ/OQ/PQ execution patterns, deviations and audit-oriented evidence.</p>
-      <p><strong>Evidence</strong><br/>documented validation boundary · portfolio-safety controls · containerized delivery</p>
-      <p><strong>Stack</strong><br/>FastAPI · React · SQLite · Docker · Nginx</p>
-    </td>
+    <td width="33%" valign="top"><h3><a href="https://github.com/alianisreyesr/gxp-change-control">GxP Change Control</a></h3><p>Controlled-change workflow with impact assessment, approval gates, UTC activity evidence and release verification.</p><p><strong>Evidence</strong><br/>v1.0.0 · 68 tests · CI · CodeQL · Docker · dependency audits</p><p><strong>Stack</strong><br/>FastAPI · React 19 · TypeScript · SQLite</p></td>
+    <td width="33%" valign="top"><h3><a href="https://github.com/alianisreyesr/quality-deviation-risk-monitor">Quality Deviation Risk Monitor</a></h3><p>Explainable risk scoring and reviewer workflow for proactive monitoring of open quality deviations.</p><p><strong>Evidence</strong><br/>57 tests · append-only audit trail · synthetic data · GitHub Actions</p><p><strong>Stack</strong><br/>FastAPI · React · SQLite · Docker</p></td>
+    <td width="33%" valign="top"><h3><a href="https://github.com/alianisreyesr/csv-evidence-tracker">CSV Evidence Tracker</a></h3><p>Requirements traceability, IQ/OQ/PQ execution patterns, deviations and audit-oriented evidence.</p><p><strong>Evidence</strong><br/>documented validation boundary · portfolio-safety controls · containerized delivery</p><p><strong>Stack</strong><br/>FastAPI · React · SQLite · Docker · Nginx</p></td>
   </tr>
 </table>
 
-### Applied projects and recognition
+<details open>
+<summary><strong>Applied projects and recognition</strong></summary>
 
 | Work | Outcome | Focus |
 |---|---|---|
@@ -60,56 +52,94 @@ My background spans three progressive assignments with **Eli Lilly**, GxP infras
 | **Service-hours and invoicing automation** | Reduced administrative time by 50% and calculation errors by 80%; improved payroll and billing accuracy by 90%. | QuickBooks Online · Connecteam · reporting automation |
 | **Network security operations automation** | Automated FortiAnalyzer CSV de-duplication and supported an IP-ban dashboard for malicious-traffic response. | Python · FortiAnalyzer · Observium · Proxmox |
 
+</details>
+
+<img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/section-divider.svg" width="100%" height="26" alt="" />
+
 ## Experience and impact
 
-| Organization | Role and scope | Selected impact |
+<table>
+  <tr><td width="22%" valign="top"><strong>Eli Lilly and Company</strong><br/><sub>Three progressive assignments</sub></td><td valign="top">Modeled enterprise quality data and lineage; built an end-to-end deviation-risk prototype; deployed with Docker, Flux, Argo CD, Kubernetes and AWS Secrets Manager; automated logistics ingestion; delivered global supply-chain Power BI reporting.</td></tr>
+  <tr><td width="22%" valign="top"><strong>OcyonBio</strong><br/><sub>IT Validation - GxP</sub></td><td valign="top">Led the ITAM evaluation scope; translated SOP controls into system design; supported IQ/OQ for firewalls, VLANs, directory services, VPN and virtualization; authored audit-ready SOPs and GAMP 5 risk assessments.</td></tr>
+  <tr><td width="22%" valign="top"><strong>Flow Metrics Studio</strong><br/><sub>Founder</sub></td><td valign="top">Designs KPI frameworks, dashboards and automated reporting systems that turn unstructured operational inputs into structured, decision-ready data.</td></tr>
+</table>
+
+<details>
+<summary><strong>Additional technical, outreach and business experience</strong></summary>
+
+| Organization | Role | Selected impact |
 |---|---|---|
-| **Eli Lilly and Company** | MQ Data Engineer Intern; Central COOP Student; Engineering & Manufacturing Intern | Modeled enterprise quality data and lineage; built an end-to-end deviation-risk prototype; deployed with Docker, Flux, Argo CD, Kubernetes and AWS Secrets Manager; automated logistics ingestion; delivered global supply-chain Power BI reporting. |
-| **OcyonBio** | Network Qualification Intern - IT Validation (GxP) | Led the ITAM evaluation scope; translated SOP controls into system design; supported IQ/OQ for firewalls, VLANs, directory services, VPN and virtualization; authored audit-ready SOPs and GAMP 5 risk assessments. |
-| **Flow Metrics Studio** | Founder | Designs KPI frameworks, dashboards and automated reporting systems that turn unstructured operational inputs into structured, decision-ready data. |
 | **CAHSI, UPRM** | Outreach Assistant | Designed and delivered Arduino irrigation workshops to groups of 30+ students; selected for the NCWIT Aspirations in Computing evaluation committee for Puerto Rico and the U.S. Virgin Islands. |
 | **Puerto Rico Seismic Network** | Junior IT Support Technician | Introduced Observium monitoring, automated security-log processing, administered virtualization and built a visitor-registration platform. |
 | **Servicios de Cuido & Psico-Gerontología** | Automation and Technical Support Intern | Automated invoicing and service-hours consolidation; integrated QuickBooks Online with Connecteam; documented and trained the operational handoff. |
 | **Loxodon-1 / BNIC** | Web Master / Administrative Manager | Built a responsive business website; managed budgeting, performance analysis, inventory controls and replenishment processes. |
 
+</details>
+
+<img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/section-divider.svg" width="100%" height="26" alt="" />
+
 ## Technical depth
 
-| Area | Tools and practices |
-|---|---|
-| **Data engineering and analytics** | Python, pandas, SQL, Amazon Redshift, DuckDB, MySQL, ETL, data modeling, lineage, metadata models, Power BI, DAX, Power Query |
-| **Software engineering** | FastAPI, React, TypeScript, JavaScript, Java, C#, PHP, COBOL, HTML/CSS, Bash, REST APIs, Git/GitHub |
-| **Cloud, DevOps and infrastructure** | Docker, Kubernetes, Argo CD, Flux/GitOps, AWS Secrets Manager, ECR, Linux, Proxmox, Active Directory, VLANs, firewall/VPN, Observium, FortiAnalyzer |
-| **AI and automation** | RAG, LLM prompt design and evaluation, enterprise LLM APIs, Azure Entra authentication, human-in-the-loop design, ServiceNow integration, Power Automate, SharePoint Lists |
-| **Quality and regulatory** | CSV, CSA, IQ/OQ, GAMP 5, 21 CFR Part 11 and Part 820, ALCOA+, deviation and CAPA processes, change control, ITAM controls, SOP authoring, audit-evidence design |
+<table>
+  <tr>
+    <td width="50%" valign="top"><h3>Data engineering and analytics</h3>Python · pandas · SQL · Amazon Redshift · DuckDB · MySQL · ETL · data modeling · lineage · metadata models · Power BI · DAX · Power Query</td>
+    <td width="50%" valign="top"><h3>Software engineering</h3>FastAPI · React · TypeScript · JavaScript · Java · C# · PHP · COBOL · HTML/CSS · Bash · REST APIs · Git/GitHub</td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top"><h3>Cloud, DevOps and infrastructure</h3>Docker · Kubernetes · Argo CD · Flux/GitOps · AWS Secrets Manager · ECR · Linux · Proxmox · Active Directory · VLANs · firewall/VPN · Observium · FortiAnalyzer</td>
+    <td width="50%" valign="top"><h3>Quality and regulatory</h3>CSV · CSA · IQ/OQ · GAMP 5 · 21 CFR Part 11 and Part 820 · ALCOA+ · deviation and CAPA · change control · ITAM controls · SOP authoring · audit-evidence design</td>
+  </tr>
+  <tr><td colspan="2" valign="top"><h3>AI and automation</h3>RAG · LLM prompt design and evaluation · enterprise LLM APIs · Azure Entra authentication · human-in-the-loop design · ServiceNow integration · Power Automate · SharePoint Lists</td></tr>
+</table>
+
+<img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/section-divider.svg" width="100%" height="26" alt="" />
 
 ## Education, credentials and leadership
 
-**University of Puerto Rico, Mayagüez Campus**  
-B.S.B.A. in Computerized Information Systems · Expected December 2026
+<table>
+  <tr>
+    <td width="50%" valign="top"><h3>Education</h3><strong>University of Puerto Rico, Mayagüez Campus</strong><br/>B.S.B.A. in Computerized Information Systems<br/>Expected December 2026</td>
+    <td width="50%" valign="top"><h3>Leadership</h3>Protégé · CAHSI Allyship Program · Department Advocate, ACM Women's Chapter · ACM Business Administration Chapter · Pink Pandas Women in Cybersecurity · Investment Club, FMA UPRM</td>
+  </tr>
+</table>
 
-**Selected credentials**  
+<details>
+<summary><strong>Certifications and professional development</strong></summary>
+
 Google Career Certificates in AI Essentials, Data Analytics, Business Intelligence, Cybersecurity, Project Management and UX Design · IBM Mainframe Development · Introduction to Linux, Linux Foundation · C3SA Premium Edition · Power BI Data Modeling with DAX and Advanced DAX · Financial Statement and Ratio Analysis, University of Illinois
 
-**Leadership and involvement**  
-Protégé · CAHSI Allyship Program · Department Advocate, ACM Women's Chapter · ACM Business Administration Chapter · Pink Pandas Women in Cybersecurity · Investment Club, FMA UPRM · Volunteer for the Lockheed Martin AI & ML Hackathon, STEAM Business Summer Camp and The Happy Givers Foundation
+</details>
+
+<details>
+<summary><strong>Volunteer involvement</strong></summary>
+
+Lockheed Martin AI & ML Hackathon · STEAM Business Summer Camp · The Happy Givers Foundation
+
+</details>
 
 ## Engineering principles
 
-I design around the questions reviewers, operators and auditors will ask later:
-
-- Where did the data come from, and how was it transformed?
-- What changed, who changed it and when?
-- Can the decision be reproduced and explained?
-- Are requirements, tests, evidence and deployment controls aligned?
+<table>
+  <tr>
+    <td width="25%" valign="top"><strong>Traceability</strong><br/><sub>Where did the data come from and how was it transformed?</sub></td>
+    <td width="25%" valign="top"><strong>Accountability</strong><br/><sub>What changed, who changed it and when?</sub></td>
+    <td width="25%" valign="top"><strong>Explainability</strong><br/><sub>Can the decision be reproduced and explained?</sub></td>
+    <td width="25%" valign="top"><strong>Assurance</strong><br/><sub>Are requirements, tests, evidence and controls aligned?</sub></td>
+  </tr>
+</table>
 
 That means explicit validation boundaries, synthetic public data, versioned requirements, automated checks, traceability and documentation that survives handoff.
 
 ## In development
 
-- [CSA Assurance Planner](https://github.com/alianisreyesr/csa-assurance-planner) - risk-based Computer Software Assurance planning.
-- [Data Integrity Case File](https://github.com/alianisreyesr/data-integrity-case-file) - ALCOA+-oriented investigation and CAPA-readiness workspace.
+| Project | Direction |
+|---|---|
+| [CSA Assurance Planner](https://github.com/alianisreyesr/csa-assurance-planner) | Risk-based Computer Software Assurance planning. |
+| [Data Integrity Case File](https://github.com/alianisreyesr/data-integrity-case-file) | ALCOA+-oriented investigation and CAPA-readiness workspace. |
 
 > Public portfolio projects use synthetic or non-confidential data. They demonstrate engineering and quality-system patterns and are not validated production systems.
+
+<img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/section-divider.svg" width="100%" height="26" alt="" />
 
 <div align="center">
 
