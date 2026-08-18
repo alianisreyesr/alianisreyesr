@@ -15,9 +15,35 @@
 
 ## Professional profile
 
+<p align="left">
+  <img src="https://img.shields.io/badge/Graduation-December_2026-0A66C2?style=flat-square" alt="Graduation" />
+  <img src="https://img.shields.io/badge/Industry-Pharma_%26_Regulated_Data-2E7D32?style=flat-square" alt="Industry" />
+  <img src="https://img.shields.io/badge/Mobility-Open_to_Relocation-7842df?style=flat-square" alt="Mobility" />
+  <img src="https://img.shields.io/badge/Languages-Bilingual_(EN%20%2F%20ES)-12192f?style=flat-square" alt="Languages" />
+</p>
+
 I build end-to-end data products for environments where **traceability, explainability and control matter**. My work connects SQL and Python pipelines, FastAPI services, accessible React interfaces and containerized deployments with the discipline required in regulated operations: GAMP 5, ALCOA+, risk-based validation and human-in-the-loop AI controls.
 
-I am completing a B.S.B.A. in Computerized Information Systems at the University of Puerto Rico, Mayagüez, graduating in December 2026. I completed three progressive assignments with **Eli Lilly**—including MQ Data Engineering on Global Information Systems Quality - Global Processes Excellence in Indianapolis—alongside GxP infrastructure qualification with **OcyonBio**. I also lead **Flow Metrics Studio**, my KPI and reporting-automation practice. I am seeking full-time opportunities in Quality Data Engineering, Data/Analytics Engineering, GxP/CSV, or IT Compliance and am open to relocate.
+I am completing a B.S.B.A. in Computerized Information Systems at the **University of Puerto Rico, Mayagüez** (December 2026). I completed three progressive assignments with **Eli Lilly and Company**—including MQ Data Engineering on Global Information Systems Quality - Global Processes Excellence in Indianapolis—alongside GxP infrastructure qualification with **OcyonBio**. I also lead **Flow Metrics Studio**, my KPI and reporting-automation practice. I am seeking full-time opportunities in Quality Data Engineering, Data/Analytics Engineering, GxP/CSV, or IT Compliance and am open to relocate.
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h4>🏗️ Data &amp; Pipelines</h4>
+      <p>SQL &amp; Python ETL pipelines, data lineage modeling, metadata catalogs, Amazon Redshift, and decision-ready Power BI reporting.</p>
+    </td>
+    <td width="33%" valign="top">
+      <h4>🛡️ GxP &amp; CSV Compliance</h4>
+      <p>ALCOA+ data integrity, 21 CFR Part 11, GAMP 5 risk assessments, IQ/OQ execution patterns, and audit trail architecture.</p>
+    </td>
+    <td width="33%" valign="top">
+      <h4>⚙️ Full-Stack &amp; Automation</h4>
+      <p>FastAPI microservices, accessible React frontends, Dockerized deployments, and automated workflow integrations.</p>
+    </td>
+  </tr>
+</table>
+
+### Key impact metrics
 
 <table>
   <tr>
