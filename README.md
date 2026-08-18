@@ -2,14 +2,19 @@
 
 <img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/profile-header.svg" width="100%" alt="Alianis Reyes-Reyes - Quality Data Engineer, GxP Systems and CSV" />
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Professional_Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alianis-reyes-reyes/)
-[![Digital Portfolio](https://img.shields.io/badge/Portfolio-Digital_Card-12192f?style=for-the-badge)](https://poplme.co/hash/aJvjFE0Z/1/es)
-[![GitHub Repositories](https://img.shields.io/badge/GitHub-Public_Projects-24292f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alianisreyesr?tab=repositories)
+<p align="center">
+  <a href="https://www.linkedin.com/in/alianis-reyes-reyes/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://github.com/alianisreyesr?tab=repositories"><img src="https://img.shields.io/badge/Repositories-12192f?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://poplme.co/hash/aJvjFE0Z/1/es"><img src="https://img.shields.io/badge/Digital_Portfolio-2aa8ad?style=for-the-badge&logo=linktree&logoColor=white" alt="Portfolio" /></a>
+</p>
 
-**Completing B.S.B.A. in Computerized Information Systems · December 2026**  
-**Seeking full-time Quality Data Engineering, Data/Analytics Engineering, GxP/CSV, or IT Compliance opportunities · Open to relocate**
+<p align="center">
+  <img src="https://img.shields.io/badge/Education-B.S.B.A._Information_Systems_(Dec_2026)-0A66C2?style=flat-square" alt="Education" />
+  <img src="https://img.shields.io/badge/Focus-Quality_Data_Engineering_%26_CSV-2E7D32?style=flat-square" alt="Focus" />
+  <img src="https://img.shields.io/badge/Relocation-Open_to_Relocate-7842df?style=flat-square" alt="Relocation" />
+</p>
 
-[Engineering Systems](#flagship-quality--data-systems) · [Architecture & Pillars](#engineering-pillars) · [Technical Stack](#technologies--tools) · [Quality Standards](#validation--assurance-principles)
+[Flagship Systems](#flagship-quality--data-systems) · [In Development](#systems-in-development) · [Engineering Pillars](#engineering-pillars) · [Technologies](#technologies--tools) · [Quality Principles](#validation--assurance-principles)
 
 </div>
 
@@ -81,12 +86,34 @@ I build end-to-end data and workflow systems for environments where **traceabili
 
 ### Systems in development
 
-| Project | Core objective | Architecture |
-|---|---|---|
-| [CSA Assurance Planner](https://github.com/alianisreyesr/csa-assurance-planner) | Risk-based Computer Software Assurance planning aligned with FDA CSA guidance. | Python · FastAPI · React · Structured assurance workflows |
-| [Data Integrity Case File](https://github.com/alianisreyesr/data-integrity-case-file) | ALCOA+ investigation workspace for root-cause analysis and CAPA readiness. | FastAPI · SQLite · Audit trail evidence ledger |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <div align="center">
+        <h3><a href="https://github.com/alianisreyesr/csa-assurance-planner">CSA Assurance Planner</a></h3>
+        <p><img src="https://img.shields.io/badge/Status-Scaffold-0A66C2?style=flat-square" alt="Status Scaffold" /></p>
+      </div>
+      <p>Risk-based Computer Software Assurance planning system aligned with FDA CSA guidance themes, risk classification, and unscripted testing strategies.</p>
+      <p><b>Stack:</b> Python · FastAPI · React · Structured assurance workflows</p>
+      <div align="center">
+        <a href="https://github.com/alianisreyesr/csa-assurance-planner"><b>View repository →</b></a>
+      </div>
+    </td>
+    <td width="50%" valign="top">
+      <div align="center">
+        <h3><a href="https://github.com/alianisreyesr/data-integrity-case-file">Data Integrity Case File</a></h3>
+        <p><img src="https://img.shields.io/badge/Status-Scaffold-0A66C2?style=flat-square" alt="Status Scaffold" /></p>
+      </div>
+      <p>ALCOA+ investigation workspace and evidence ledger for deviation root-cause analysis, audit trail review, and CAPA readiness.</p>
+      <p><b>Stack:</b> FastAPI · SQLite · Audit trail evidence ledger</p>
+      <div align="center">
+        <a href="https://github.com/alianisreyesr/data-integrity-case-file"><b>View repository →</b></a>
+      </div>
+    </td>
+  </tr>
+</table>
 
-> All public portfolio projects use synthetic data and demonstrate software architectures and quality-system patterns.
+> Public portfolio projects use synthetic data to demonstrate engineering architectures and regulated quality patterns.
 
 <img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/section-divider.svg" width="100%" height="26" alt="" />
 
@@ -95,15 +122,21 @@ I build end-to-end data and workflow systems for environments where **traceabili
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h4>Data &amp; Pipelines</h4>
+      <div align="center">
+        <h4>Data &amp; Pipelines</h4>
+      </div>
       <p>SQL &amp; Python ETL pipelines, data lineage modeling, metadata catalogs, Amazon Redshift, and decision-ready Power BI reporting.</p>
     </td>
     <td width="33%" valign="top">
-      <h4>GxP &amp; CSV Compliance</h4>
+      <div align="center">
+        <h4>GxP &amp; CSV Compliance</h4>
+      </div>
       <p>ALCOA+ data integrity, 21 CFR Part 11, GAMP 5 risk assessments, IQ/OQ execution patterns, and audit trail architecture.</p>
     </td>
     <td width="33%" valign="top">
-      <h4>Full-Stack &amp; DevOps</h4>
+      <div align="center">
+        <h4>Full-Stack &amp; DevOps</h4>
+      </div>
       <p>FastAPI microservices, modern React interfaces, Docker containerization, and GitHub Actions automated quality gates.</p>
     </td>
   </tr>
@@ -163,10 +196,22 @@ Every system in this portfolio is built with verification and auditability at th
 
 <table>
   <tr>
-    <td width="25%" valign="top"><strong>Traceability</strong><br/><sub>Where did the data originate and how was it transformed?</sub></td>
-    <td width="25%" valign="top"><strong>Accountability</strong><br/><sub>What changed, who approved it, and when (UTC)?</sub></td>
-    <td width="25%" valign="top"><strong>Explainability</strong><br/><sub>Can calculations and risk scores be audited and reproduced?</sub></td>
-    <td width="25%" valign="top"><strong>Assurance</strong><br/><sub>Are requirements, automated tests, and deployment gates aligned?</sub></td>
+    <td width="25%" valign="top">
+      <div align="center"><h4>Traceability</h4></div>
+      <p>Where did the data originate and how was it transformed?</p>
+    </td>
+    <td width="25%" valign="top">
+      <div align="center"><h4>Accountability</h4></div>
+      <p>What changed, who approved it, and when (UTC)?</p>
+    </td>
+    <td width="25%" valign="top">
+      <div align="center"><h4>Explainability</h4></div>
+      <p>Can calculations and risk scores be audited and reproduced?</p>
+    </td>
+    <td width="25%" valign="top">
+      <div align="center"><h4>Assurance</h4></div>
+      <p>Are requirements, automated tests, and deployment gates aligned?</p>
+    </td>
   </tr>
 </table>
 
@@ -176,6 +221,6 @@ Every system in this portfolio is built with verification and auditability at th
 
 ### Building auditable systems from data to decision
 
-For full professional background and recommendations, visit [LinkedIn](https://www.linkedin.com/in/alianis-reyes-reyes/) · [Digital portfolio](https://poplme.co/hash/aJvjFE0Z/1/es) · [All repositories](https://github.com/alianisreyesr?tab=repositories)
+For full professional background and career history, visit [LinkedIn](https://www.linkedin.com/in/alianis-reyes-reyes/) · [Digital portfolio](https://poplme.co/hash/aJvjFE0Z/1/es) · [All repositories](https://github.com/alianisreyesr?tab=repositories)
 
 </div>
