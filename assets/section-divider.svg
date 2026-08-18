@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="26" viewBox="0 0 1280 26" role="img" aria-label="Animated section divider">
+  <defs><linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2aa8ad" stop-opacity="0"/><stop offset="0.22" stop-color="#2aa8ad"/><stop offset="0.52" stop-color="#4b82d0"/><stop offset="0.78" stop-color="#7842df"/><stop offset="1" stop-color="#7842df" stop-opacity="0"/></linearGradient></defs>
+  <line x1="30" y1="13" x2="1250" y2="13" stroke="url(#line)" stroke-width="2"/>
+  <circle cy="13" r="4" fill="#f4f7fb"><animate attributeName="cx" values="100;1180;100" dur="8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;0" dur="4s" repeatCount="indefinite"/></circle>
+  <circle cy="13" r="3" fill="#2aa8ad" opacity="0.8"><animate attributeName="cx" values="1180;100;1180" dur="11s" repeatCount="indefinite"/></circle>
+</svg>
