@@ -1,41 +1,53 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
   <title id="title">Alianis Reyes-Reyes — Quality Data Engineer</title>
-  <desc id="desc">Modern professional header with teal, blue, and purple gradient waves.</desc>
+  <desc id="desc">Modern centered professional header with teal, blue, and purple gradient glow and sleek typography.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#081322"/>
-      <stop offset="0.55" stop-color="#101a3a"/>
-      <stop offset="1" stop-color="#160f32"/>
+      <stop offset="0%" stop-color="#070c18"/>
+      <stop offset="50%" stop-color="#0d152e"/>
+      <stop offset="100%" stop-color="#140c28"/>
     </linearGradient>
-    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#2aa8ad"/>
-      <stop offset="0.52" stop-color="#4b82d0"/>
-      <stop offset="1" stop-color="#7842df"/>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2aa8ad"/>
+      <stop offset="50%" stop-color="#4b82d0"/>
+      <stop offset="100%" stop-color="#7842df"/>
     </linearGradient>
-    <linearGradient id="waveSoft" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#2aa8ad" stop-opacity="0.08"/>
-      <stop offset="0.52" stop-color="#4b82d0" stop-opacity="0.16"/>
-      <stop offset="1" stop-color="#7842df" stop-opacity="0.12"/>
-    </linearGradient>
-    <filter id="glow" x="-20%" y="-60%" width="140%" height="220%">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <radialGradient id="glowTop" cx="50%" cy="0%" r="60%">
+      <stop offset="0%" stop-color="#4b82d0" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#4b82d0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowLeft" cx="15%" cy="80%" r="40%">
+      <stop offset="0%" stop-color="#2aa8ad" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#2aa8ad" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowRight" cx="85%" cy="80%" r="40%">
+      <stop offset="0%" stop-color="#7842df" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#7842df" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blurGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
     </filter>
   </defs>
 
-  <rect width="1280" height="300" rx="26" fill="url(#bg)"/>
-  <path d="M0 227 C150 174 256 266 414 216 C574 164 699 250 844 205 C1000 156 1110 237 1280 175 L1280 300 L0 300 Z" fill="url(#waveSoft)"/>
-  <path d="M0 249 C178 194 286 284 443 235 C590 189 704 266 862 221 C1028 174 1138 244 1280 191" fill="none" stroke="url(#wave)" stroke-opacity="0.8" stroke-width="3"/>
-  <path d="M0 266 C154 218 294 292 459 251 C604 215 723 280 884 241 C1035 204 1151 261 1280 223" fill="none" stroke="url(#wave)" stroke-opacity="0.32" stroke-width="2"/>
-  <circle cx="1112" cy="73" r="92" fill="#7842df" opacity="0.10"/>
-  <circle cx="1190" cy="42" r="44" fill="#4b82d0" opacity="0.14" filter="url(#glow)"/>
+  <rect width="1280" height="320" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="320" rx="24" fill="url(#glowTop)"/>
+  <rect width="1280" height="320" rx="24" fill="url(#glowLeft)"/>
+  <rect width="1280" height="320" rx="24" fill="url(#glowRight)"/>
 
-  <g font-family="Inter, Segoe UI, Arial, sans-serif">
-    <text x="80" y="77" fill="#91a3c0" font-size="14" font-weight="700" letter-spacing="4">PORTFOLIO · 2026</text>
-    <text x="80" y="138" fill="#f7f9ff" font-size="52" font-weight="800">Alianis Reyes-Reyes</text>
-    <rect x="80" y="158" width="514" height="4" rx="2" fill="url(#wave)"/>
-    <text x="80" y="206" fill="#dce6f8" font-size="24" font-weight="600">Quality Data Engineer · GxP Systems &amp; CSV</text>
-    <text x="80" y="238" fill="#a5b4cc" font-size="15" letter-spacing="1.1">DATA ENGINEERING · ANALYTICS · AUTOMATION · REGULATED SYSTEMS</text>
+  <path d="M0 270 C 320 220, 640 310, 960 250 C 1120 220, 1200 260, 1280 240 L 1280 320 L 0 320 Z" fill="url(#accent)" opacity="0.08"/>
+  <path d="M0 290 C 280 250, 600 315, 920 275 C 1100 250, 1200 285, 1280 270" fill="none" stroke="url(#accent)" stroke-width="2.5" opacity="0.45"/>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" text-anchor="middle">
+    <text x="640" y="80" fill="#91a3c0" font-size="13" font-weight="700" letter-spacing="4">PORTFOLIO · 2026</text>
+    <text x="640" y="148" fill="#ffffff" font-size="52" font-weight="800" letter-spacing="-0.5">Alianis Reyes-Reyes</text>
+    <rect x="490" y="168" width="300" height="3.5" rx="1.75" fill="url(#accent)" filter="url(#blurGlow)"/>
+    <text x="640" y="216" fill="#dce6f8" font-size="22" font-weight="600" letter-spacing="0.5">Quality Data Engineer · GxP Systems &amp; CSV</text>
+    <text x="640" y="252" fill="#8aa0bf" font-size="14" font-weight="500" letter-spacing="2">DATA ENGINEERING · ANALYTICS AUTOMATION · IT COMPLIANCE</text>
   </g>
-  <rect x="1.5" y="1.5" width="1277" height="297" rx="24.5" fill="none" stroke="url(#wave)" stroke-opacity="0.42" stroke-width="3"/>
+
+  <rect x="1.5" y="1.5" width="1277" height="317" rx="22.5" fill="none" stroke="url(#accent)" stroke-opacity="0.35" stroke-width="2"/>
 </svg>
