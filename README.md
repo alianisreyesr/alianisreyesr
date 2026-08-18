@@ -1,12 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2aa8ad,50:4b82d0,100:7842df&height=200&section=header&text=Alianis%20Reyes-Reyes&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Quality%20Data%20Engineer%20%C2%B7%20GxP%20Systems%20%26%20CSV%20%C2%B7%20Analytics%20Automation&descAlignY=58&descSize=15&descColor=e6edf7" width="100%" alt="Alianis Reyes-Reyes - Data Engineering, Quality and IT Systems" />
+<img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/profile-header.svg" width="100%" alt="Alianis Reyes-Reyes - Quality Data Engineer, GxP Systems and CSV" />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Professional_Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alianis-reyes-reyes/)
 [![Portfolio](https://img.shields.io/badge/Digital_Portfolio-View_Profile-12192f?style=for-the-badge)](https://poplme.co/hash/aJvjFE0Z/1/es)
 [![GitHub](https://img.shields.io/badge/GitHub-Project_Portfolio-24292f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/alianisreyesr?tab=repositories)
-
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&pause=1000&color=4b82d0&center=true&vCenter=true&width=620&lines=Quality+Data+Engineer+%C2%B7+GxP+Systems+%26+CSV;Information+Systems+Senior+%40+UPRM+%E2%80%94+Dec+2026;Former+Eli+Lilly+Intern+%26+Co-op;Building+auditable+systems+from+data+to+decision.)
 
 [Profile](#professional-profile) · [Projects](#featured-engineering-portfolio) · [Experience](#experience-and-impact) · [Technologies](#technologies-and-skills) · [Education](#education-credentials-and-leadership)
 
