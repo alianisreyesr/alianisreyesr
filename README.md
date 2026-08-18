@@ -1,20 +1,26 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/profile-header.svg" width="100%" alt="Alianis Reyes-Reyes - Quality Data Engineer, GxP Systems and CSV" />
+<img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/profile-header.svg" width="100%" alt="Alianis Reyes-Reyes — Quality Data Engineer, GxP Systems and CSV Portfolio Header" />
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/alianis-reyes-reyes/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://github.com/alianisreyesr?tab=repositories"><img src="https://img.shields.io/badge/Repositories-12192f?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://poplme.co/hash/aJvjFE0Z/1/es"><img src="https://img.shields.io/badge/Digital_Portfolio-2aa8ad?style=for-the-badge&logo=linktree&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/alianis-reyes-reyes/" aria-label="LinkedIn Professional Profile"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Professional Profile" /></a>
+  <a href="https://github.com/alianisreyesr?tab=repositories" aria-label="GitHub Public Repositories"><img src="https://img.shields.io/badge/Repositories-12192f?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repositories" /></a>
+  <a href="https://poplme.co/hash/aJvjFE0Z/1/es" aria-label="Digital Portfolio Card"><img src="https://img.shields.io/badge/Digital_Portfolio-2aa8ad?style=for-the-badge&logo=linktree&logoColor=white" alt="Digital Portfolio Card" /></a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Education-B.S.B.A._Information_Systems_(Dec_2026)-0A66C2?style=flat-square" alt="Education" />
-  <img src="https://img.shields.io/badge/Focus-Quality_Data_Engineering_%26_CSV-2E7D32?style=flat-square" alt="Focus" />
-  <img src="https://img.shields.io/badge/Relocation-Open_to_Relocate-7842df?style=flat-square" alt="Relocation" />
+  <img src="https://img.shields.io/badge/Education-B.S.B.A._Information_Systems_(Dec_2026)-0A66C2?style=flat-square" alt="Education: B.S.B.A. in Computerized Information Systems, Graduating December 2026" />
+  <img src="https://img.shields.io/badge/Focus-Quality_Data_Engineering_%26_CSV-2E7D32?style=flat-square" alt="Career Focus: Quality Data Engineering and CSV" />
+  <img src="https://img.shields.io/badge/Relocation-Open_to_Relocate-7842df?style=flat-square" alt="Mobility: Open to Relocate" />
 </p>
 
-[Flagship Systems](#flagship-quality--data-systems) · [In Development](#systems-in-development) · [Engineering Pillars](#engineering-pillars) · [Technologies](#technologies--tools) · [Quality Principles](#validation--assurance-principles)
+<nav aria-label="Profile navigation">
+  <a href="#flagship-quality--data-systems">Flagship Systems</a> · 
+  <a href="#systems-in-development">In Development</a> · 
+  <a href="#engineering-pillars">Engineering Pillars</a> · 
+  <a href="#technologies--tools">Technologies</a> · 
+  <a href="#validation--assurance-principles">Quality Principles</a>
+</nav>
 
 </div>
 
@@ -22,63 +28,63 @@
 
 I build end-to-end data and workflow systems for environments where **traceability, explainability and validation matter**. My public repositories focus on regulated quality engineering: connecting SQL and Python pipelines, FastAPI services, modern React frontends, and containerized deployments with GAMP 5, ALCOA+ data integrity, and automated CI/CD quality gates.
 
-<table>
+<table aria-label="Key portfolio statistics">
   <tr>
-    <td align="center" width="25%"><h3>3</h3><sub>Flagship quality systems</sub></td>
-    <td align="center" width="25%"><h3>125+</h3><sub>Automated tests in CI</sub></td>
-    <td align="center" width="25%"><h3>CI/CD</h3><sub>GitHub Actions · CodeQL · Docker</sub></td>
-    <td align="center" width="25%"><h3>GxP &amp; CSV</h3><sub>Traceability &amp; audit trails</sub></td>
+    <th scope="col" align="center" width="25%"><h3>3</h3><sub>Flagship quality systems</sub></th>
+    <th scope="col" align="center" width="25%"><h3>125+</h3><sub>Automated tests in CI</sub></th>
+    <th scope="col" align="center" width="25%"><h3>CI/CD</h3><sub>GitHub Actions · CodeQL · Docker</sub></th>
+    <th scope="col" align="center" width="25%"><h3>GxP &amp; CSV</h3><sub>Traceability &amp; audit trails</sub></th>
   </tr>
 </table>
 
-<img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/career-flow.svg" width="100%" alt="Systems progression from data pipelines to compliance assurance" />
+<img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/career-flow.svg" width="100%" alt="Career signal diagram: A four-stage progression from technical foundations and data products to quality governance and measured impact." />
 
-<img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/section-divider.svg" width="100%" height="26" alt="" />
+<img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/section-divider.svg" width="100%" height="26" alt="" role="presentation" aria-hidden="true" />
 
 ## Flagship quality &amp; data systems
 
-<table>
+<table aria-label="Flagship engineering repositories">
   <tr>
     <td width="33%" valign="top">
       <div align="center">
         <h3><a href="https://github.com/alianisreyesr/gxp-change-control">GxP Change Control</a></h3>
         <p>
-          <img src="https://img.shields.io/badge/Release-v1.0.0-2E7D32?style=flat-square" alt="Release v1.0.0" />
-          <img src="https://img.shields.io/badge/Tests-68_passing-2E7D32?style=flat-square" alt="68 Tests" />
+          <img src="https://img.shields.io/badge/Release-v1.0.0-2E7D32?style=flat-square" alt="Release status: v1.0.0" />
+          <img src="https://img.shields.io/badge/Tests-68_passing-2E7D32?style=flat-square" alt="Test suite: 68 tests passing" />
         </p>
       </div>
       <p>Controlled change lifecycle application with impact assessment, multi-role approval gates, immutable UTC audit trail, and release verification.</p>
       <p><b>Architecture:</b> FastAPI · React 19 · TypeScript · SQLite · Docker</p>
       <div align="center">
-        <a href="https://github.com/alianisreyesr/gxp-change-control"><b>View repository →</b></a>
+        <a href="https://github.com/alianisreyesr/gxp-change-control" aria-label="View GxP Change Control repository on GitHub"><b>View repository →</b></a>
       </div>
     </td>
     <td width="33%" valign="top">
       <div align="center">
         <h3><a href="https://github.com/alianisreyesr/quality-deviation-risk-monitor">Deviation Risk Monitor</a></h3>
         <p>
-          <img src="https://img.shields.io/badge/Status-Active-2E7D32?style=flat-square" alt="Status Active" />
-          <img src="https://img.shields.io/badge/Tests-57_passing-2E7D32?style=flat-square" alt="57 Tests" />
+          <img src="https://img.shields.io/badge/Status-Active-2E7D32?style=flat-square" alt="Status: Active" />
+          <img src="https://img.shields.io/badge/Tests-57_passing-2E7D32?style=flat-square" alt="Test suite: 57 tests passing" />
         </p>
       </div>
       <p>Proactive deviation monitoring system with explainable risk scoring, reviewer triage workflow, append-only audit trail, and synthetic data pipeline.</p>
       <p><b>Architecture:</b> Python · FastAPI · React · SQLite · Docker</p>
       <div align="center">
-        <a href="https://github.com/alianisreyesr/quality-deviation-risk-monitor"><b>View repository →</b></a>
+        <a href="https://github.com/alianisreyesr/quality-deviation-risk-monitor" aria-label="View Deviation Risk Monitor repository on GitHub"><b>View repository →</b></a>
       </div>
     </td>
     <td width="33%" valign="top">
       <div align="center">
         <h3><a href="https://github.com/alianisreyesr/csv-evidence-tracker">CSV Evidence Tracker</a></h3>
         <p>
-          <img src="https://img.shields.io/badge/Status-Live-2E7D32?style=flat-square" alt="Status Live" />
-          <img src="https://img.shields.io/badge/ALCOA+-Verified-2E7D32?style=flat-square" alt="ALCOA+ Verified" />
+          <img src="https://img.shields.io/badge/Status-Live-2E7D32?style=flat-square" alt="Status: Live" />
+          <img src="https://img.shields.io/badge/ALCOA+-Verified-2E7D32?style=flat-square" alt="Compliance: ALCOA+ verified" />
         </p>
       </div>
       <p>Computer System Validation tracking system covering Requirements Traceability Matrices (RTM), IQ/OQ/PQ execution patterns, and deviation logs.</p>
       <p><b>Architecture:</b> FastAPI · React · SQLite · Docker · Nginx</p>
       <div align="center">
-        <a href="https://github.com/alianisreyesr/csv-evidence-tracker"><b>View repository →</b></a>
+        <a href="https://github.com/alianisreyesr/csv-evidence-tracker" aria-label="View CSV Evidence Tracker repository on GitHub"><b>View repository →</b></a>
       </div>
     </td>
   </tr>
@@ -86,28 +92,28 @@ I build end-to-end data and workflow systems for environments where **traceabili
 
 ### Systems in development
 
-<table>
+<table aria-label="Projects currently in development">
   <tr>
     <td width="50%" valign="top">
       <div align="center">
         <h3><a href="https://github.com/alianisreyesr/csa-assurance-planner">CSA Assurance Planner</a></h3>
-        <p><img src="https://img.shields.io/badge/Status-Scaffold-0A66C2?style=flat-square" alt="Status Scaffold" /></p>
+        <p><img src="https://img.shields.io/badge/Status-Scaffold-0A66C2?style=flat-square" alt="Status: Scaffold" /></p>
       </div>
       <p>Risk-based Computer Software Assurance planning system aligned with FDA CSA guidance themes, risk classification, and unscripted testing strategies.</p>
       <p><b>Stack:</b> Python · FastAPI · React · Structured assurance workflows</p>
       <div align="center">
-        <a href="https://github.com/alianisreyesr/csa-assurance-planner"><b>View repository →</b></a>
+        <a href="https://github.com/alianisreyesr/csa-assurance-planner" aria-label="View CSA Assurance Planner repository on GitHub"><b>View repository →</b></a>
       </div>
     </td>
     <td width="50%" valign="top">
       <div align="center">
         <h3><a href="https://github.com/alianisreyesr/data-integrity-case-file">Data Integrity Case File</a></h3>
-        <p><img src="https://img.shields.io/badge/Status-Scaffold-0A66C2?style=flat-square" alt="Status Scaffold" /></p>
+        <p><img src="https://img.shields.io/badge/Status-Scaffold-0A66C2?style=flat-square" alt="Status: Scaffold" /></p>
       </div>
       <p>ALCOA+ investigation workspace and evidence ledger for deviation root-cause analysis, audit trail review, and CAPA readiness.</p>
       <p><b>Stack:</b> FastAPI · SQLite · Audit trail evidence ledger</p>
       <div align="center">
-        <a href="https://github.com/alianisreyesr/data-integrity-case-file"><b>View repository →</b></a>
+        <a href="https://github.com/alianisreyesr/data-integrity-case-file" aria-label="View Data Integrity Case File repository on GitHub"><b>View repository →</b></a>
       </div>
     </td>
   </tr>
@@ -115,11 +121,11 @@ I build end-to-end data and workflow systems for environments where **traceabili
 
 > Public portfolio projects use synthetic data to demonstrate engineering architectures and regulated quality patterns.
 
-<img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/section-divider.svg" width="100%" height="26" alt="" />
+<img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/section-divider.svg" width="100%" height="26" alt="" role="presentation" aria-hidden="true" />
 
 ## Engineering pillars
 
-<table>
+<table aria-label="Core engineering disciplines">
   <tr>
     <td width="33%" valign="top">
       <div align="center">
@@ -142,7 +148,7 @@ I build end-to-end data and workflow systems for environments where **traceabili
   </tr>
 </table>
 
-<img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/section-divider.svg" width="100%" height="26" alt="" />
+<img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/section-divider.svg" width="100%" height="26" alt="" role="presentation" aria-hidden="true" />
 
 ## Technologies &amp; tools
 
@@ -188,13 +194,13 @@ I build end-to-end data and workflow systems for environments where **traceabili
 
 </div>
 
-<img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/section-divider.svg" width="100%" height="26" alt="" />
+<img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/section-divider.svg" width="100%" height="26" alt="" role="presentation" aria-hidden="true" />
 
 ## Validation &amp; assurance principles
 
 Every system in this portfolio is built with verification and auditability at the center:
 
-<table>
+<table aria-label="Assurance and verification principles">
   <tr>
     <td width="25%" valign="top">
       <div align="center"><h4>Traceability</h4></div>
@@ -215,7 +221,7 @@ Every system in this portfolio is built with verification and auditability at th
   </tr>
 </table>
 
-<img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/section-divider.svg" width="100%" height="26" alt="" />
+<img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/section-divider.svg" width="100%" height="26" alt="" role="presentation" aria-hidden="true" />
 
 <div align="center">
 
