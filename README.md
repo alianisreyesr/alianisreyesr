@@ -16,7 +16,7 @@
 
 <nav aria-label="Profile navigation">
   <a href="#flagship-quality--data-systems">Flagship Systems</a> · 
-  <a href="#systems-in-development">In Development</a> · 
+  <a href="#systems-in-development--pipelines">In Development</a> · 
   <a href="#engineering-pillars">Engineering Pillars</a> · 
   <a href="#technologies--tools">Technologies</a> · 
   <a href="#validation--assurance-principles">Quality Principles</a>
@@ -90,28 +90,39 @@ I build end-to-end data and workflow systems for environments where **traceabili
   </tr>
 </table>
 
-### Systems in development
+### Systems in development &amp; pipelines
 
 <table aria-label="Projects currently in development">
   <tr>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
+      <div align="center">
+        <h3><a href="https://github.com/alianisreyesr/gxp-batch-data-pipeline">Batch Data Pipeline</a></h3>
+        <p><img src="https://img.shields.io/badge/Status-Scaffold-0A66C2?style=flat-square" alt="Status: Scaffold" /></p>
+      </div>
+      <p>Manufacturing telemetry ETL pipeline with Great Expectations data contracts, dbt modeling, and DuckDB analytics.</p>
+      <p><b>Stack:</b> DuckDB · dbt · Great Expectations · Python</p>
+      <div align="center">
+        <a href="https://github.com/alianisreyesr/gxp-batch-data-pipeline" aria-label="View GxP Batch Data Pipeline repository on GitHub"><b>View repository →</b></a>
+      </div>
+    </td>
+    <td width="33%" valign="top">
       <div align="center">
         <h3><a href="https://github.com/alianisreyesr/csa-assurance-planner">CSA Assurance Planner</a></h3>
         <p><img src="https://img.shields.io/badge/Status-Scaffold-0A66C2?style=flat-square" alt="Status: Scaffold" /></p>
       </div>
-      <p>Risk-based Computer Software Assurance planning system aligned with FDA CSA guidance themes, risk classification, and unscripted testing strategies.</p>
-      <p><b>Stack:</b> Python · FastAPI · React · Structured assurance workflows</p>
+      <p>Risk-based Computer Software Assurance planning system aligned with FDA CSA guidance and unscripted testing.</p>
+      <p><b>Stack:</b> Python · FastAPI · React · Assurance workflows</p>
       <div align="center">
         <a href="https://github.com/alianisreyesr/csa-assurance-planner" aria-label="View CSA Assurance Planner repository on GitHub"><b>View repository →</b></a>
       </div>
     </td>
-    <td width="50%" valign="top">
+    <td width="33%" valign="top">
       <div align="center">
         <h3><a href="https://github.com/alianisreyesr/data-integrity-case-file">Data Integrity Case File</a></h3>
         <p><img src="https://img.shields.io/badge/Status-Scaffold-0A66C2?style=flat-square" alt="Status: Scaffold" /></p>
       </div>
-      <p>ALCOA+ investigation workspace and evidence ledger for deviation root-cause analysis, audit trail review, and CAPA readiness.</p>
-      <p><b>Stack:</b> FastAPI · SQLite · Audit trail evidence ledger</p>
+      <p>ALCOA+ investigation workspace and evidence ledger for deviation root-cause analysis and CAPA readiness.</p>
+      <p><b>Stack:</b> FastAPI · SQLite · Audit trail ledger</p>
       <div align="center">
         <a href="https://github.com/alianisreyesr/data-integrity-case-file" aria-label="View Data Integrity Case File repository on GitHub"><b>View repository →</b></a>
       </div>
