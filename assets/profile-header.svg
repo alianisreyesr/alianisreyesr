@@ -1,78 +1,64 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-labelledby="title desc">
   <title id="title">Alianis Reyes-Reyes - Data Engineering, Quality and IT Systems</title>
-  <desc id="desc">Animated professional portfolio header with orbital data paths and rotating role specialties.</desc>
+  <desc id="desc">Modern minimal portfolio header with gradient background and animated typing role specialties.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#07111f"/>
-      <stop offset="0.55" stop-color="#101936"/>
-      <stop offset="1" stop-color="#0b1020"/>
+      <stop offset="0" stop-color="#0a0f1e"/>
+      <stop offset="0.5" stop-color="#0d1430"/>
+      <stop offset="1" stop-color="#090c18"/>
     </linearGradient>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#2aa8ad"/>
       <stop offset="0.5" stop-color="#4b82d0"/>
       <stop offset="1" stop-color="#7842df"/>
     </linearGradient>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#91a3c0" stroke-opacity="0.08" stroke-width="1"/>
+    <radialGradient id="glow1" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#4b82d0" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#4b82d0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#2aa8ad" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#2aa8ad" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#91a3c0" stroke-opacity="0.06" stroke-width="1"/>
     </pattern>
-    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
-      <feGaussianBlur stdDeviation="7" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
   </defs>
 
-  <rect width="1280" height="420" rx="28" fill="url(#bg)"/>
-  <rect width="1280" height="420" rx="28" fill="url(#grid)"/>
-  <circle cx="1120" cy="34" r="250" fill="#6f3bd1" opacity="0.08">
-    <animate attributeName="r" values="238;262;238" dur="10s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="78" cy="390" r="260" fill="#2aa8ad" opacity="0.07">
-    <animate attributeName="r" values="250;272;250" dur="12s" repeatCount="indefinite"/>
-  </circle>
+  <rect width="1280" height="320" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="320" rx="24" fill="url(#grid)"/>
 
-  <g transform="translate(80 65)" fill="none" stroke-linecap="round">
-    <g>
-      <animateTransform attributeName="transform" type="rotate" from="0 170 145" to="360 170 145" dur="24s" repeatCount="indefinite"/>
-      <ellipse cx="170" cy="145" rx="132" ry="60" transform="rotate(31 170 145)" stroke="#2aa8ad" stroke-width="10"/>
-      <circle cx="55" cy="111" r="15" fill="#2aa8ad" stroke="none" filter="url(#glow)"/>
-    </g>
-    <g>
-      <animateTransform attributeName="transform" type="rotate" from="360 170 145" to="0 170 145" dur="31s" repeatCount="indefinite"/>
-      <ellipse cx="170" cy="145" rx="132" ry="60" transform="rotate(-47 170 145)" stroke="#7842df" stroke-width="10"/>
-      <circle cx="286" cy="116" r="15" fill="#7842df" stroke="none" filter="url(#glow)"/>
-    </g>
-    <g>
-      <animateTransform attributeName="transform" type="rotate" from="0 170 145" to="360 170 145" dur="38s" repeatCount="indefinite"/>
-      <ellipse cx="170" cy="145" rx="132" ry="60" transform="rotate(79 170 145)" stroke="#26376d" stroke-width="10"/>
-      <circle cx="176" cy="275" r="15" fill="#4b82d0" stroke="none" filter="url(#glow)"/>
-    </g>
-    <circle cx="170" cy="145" r="50" fill="#1c2a53" stroke="url(#accent)" stroke-width="3">
-      <animate attributeName="r" values="47;53;47" dur="4s" repeatCount="indefinite"/>
-    </circle>
-  </g>
+  <circle cx="1080" cy="40" r="220" fill="url(#glow1)">
+    <animate attributeName="r" values="210;235;210" dur="9s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="120" cy="300" r="200" fill="url(#glow2)">
+    <animate attributeName="r" values="190;215;190" dur="11s" repeatCount="indefinite"/>
+  </circle>
 
   <g font-family="Inter, Segoe UI, Arial, sans-serif">
-    <text x="460" y="112" fill="#8aa0bf" font-size="16" font-weight="700" letter-spacing="4">PORTFOLIO / 2026</text>
-    <text x="460" y="178" fill="#f4f7fb" font-size="48" font-weight="700" letter-spacing="0.5">Alianis Reyes-Reyes</text>
-    <line x1="460" y1="206" x2="1100" y2="206" stroke="url(#accent)" stroke-width="3" stroke-linecap="round">
-      <animate attributeName="x2" values="460;1100;1100" keyTimes="0;0.72;1" dur="2.2s" fill="freeze"/>
+    <text x="80" y="92" fill="#8aa0bf" font-size="15" font-weight="700" letter-spacing="4">PORTFOLIO &#8226; 2026</text>
+
+    <text x="80" y="152" fill="#f4f7fb" font-size="52" font-weight="800" letter-spacing="0.3">Alianis Reyes-Reyes</text>
+
+    <line x1="80" y1="178" x2="80" y2="178" stroke="url(#accent)" stroke-width="4" stroke-linecap="round">
+      <animate attributeName="x2" values="80;720;720" keyTimes="0;0.7;1" dur="2s" fill="freeze"/>
     </line>
 
-    <g fill="#c7d2e5" font-size="22" font-weight="500">
-      <text x="460" y="251">Data Engineering &amp; Analytics
-        <animate attributeName="opacity" values="1;1;0;0;0;0;1" keyTimes="0;0.28;0.33;0.61;0.66;0.95;1" dur="12s" repeatCount="indefinite"/>
+    <g fill="#d7e0f0" font-size="25" font-weight="600">
+      <text x="80" y="222">Quality Data Engineer &#8226; GxP Systems &amp; CSV
+        <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.3;0.35" dur="12s" repeatCount="indefinite"/>
       </text>
-      <text x="460" y="251" opacity="0">Quality &amp; GxP IT Systems
-        <animate attributeName="opacity" values="0;0;1;1;0;0;0" keyTimes="0;0.28;0.33;0.61;0.66;0.95;1" dur="12s" repeatCount="indefinite"/>
+      <text x="80" y="222" opacity="0">Full-Stack &amp; Data Pipeline Engineering
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.35;0.4;0.63;0.68" dur="12s" repeatCount="indefinite"/>
       </text>
-      <text x="460" y="251" opacity="0">Automation &amp; AI Enablement
-        <animate attributeName="opacity" values="0;0;0;0;1;1;0" keyTimes="0;0.28;0.33;0.61;0.66;0.95;1" dur="12s" repeatCount="indefinite"/>
+      <text x="80" y="222" opacity="0">Automation, AI &amp; Compliance Enablement
+        <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.68;0.73;0.97;1" dur="12s" repeatCount="indefinite"/>
       </text>
     </g>
 
-    <text x="460" y="302" fill="#91a3c0" font-size="16" letter-spacing="1.2">UPRM  ·  ELI LILLY EXPERIENCE  ·  GxP VALIDATION  ·  PUERTO RICO</text>
-    <text x="460" y="348" fill="#42c3c8" font-size="15" font-weight="700" letter-spacing="2.2">ENGINEERING TRUST INTO DATA, SYSTEMS AND DECISIONS</text>
+    <text x="80" y="264" fill="#91a3c0" font-size="15" letter-spacing="1.1">UPRM &#8226; ELI LILLY EXPERIENCE &#8226; GxP VALIDATION &#8226; PUERTO RICO</text>
+    <text x="80" y="294" fill="#42c3c8" font-size="14" font-weight="700" letter-spacing="2">ENGINEERING TRUST INTO DATA, SYSTEMS AND DECISIONS</text>
   </g>
 
-  <rect x="1.5" y="1.5" width="1277" height="417" rx="26.5" fill="none" stroke="url(#accent)" stroke-opacity="0.42" stroke-width="3"/>
+  <rect x="1.5" y="1.5" width="1277" height="317" rx="22.5" fill="none" stroke="url(#accent)" stroke-opacity="0.38" stroke-width="2.5"/>
 </svg>
