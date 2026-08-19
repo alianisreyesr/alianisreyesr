@@ -16,7 +16,7 @@
 
 <nav aria-label="Profile navigation">
   <a href="#flagship-quality--data-systems">Flagship Systems</a> · 
-  <a href="#pipelines--systems-in-development">Pipelines &amp; Growth</a> · 
+  <a href="#growing-project">Growing Project</a> · 
   <a href="#engineering-pillars">Engineering Pillars</a> · 
   <a href="#technologies--tools">Technologies</a> · 
   <a href="#validation--assurance-principles">Quality Principles</a>
@@ -90,48 +90,29 @@ I build **traceable, testable data and workflow systems for regulated environmen
   </tr>
 </table>
 
-### Pipelines &amp; systems in development
+## Growing project
 
-<table aria-label="Projects currently in development">
+<table aria-label="Growing engineering project">
   <tr>
-    <td width="33%" valign="top">
+    <td width="100%" valign="top">
       <div align="center">
-        <h3><a href="https://github.com/alianisreyesr/gxp-batch-data-pipeline">Batch Data Pipeline</a></h3>
+        <h3><a href="https://github.com/alianisreyesr/gxp-batch-data-pipeline">GxP Batch Data Pipeline</a></h3>
         <p>
           <img src="https://img.shields.io/badge/Status-Active_MVP-0A66C2?style=flat-square" alt="Status: Active MVP" />
           <img src="https://img.shields.io/badge/Tests-6_pytest_%2B_8_dbt-0A66C2?style=flat-square" alt="Verification: 6 pytest and 8 dbt data tests" />
         </p>
       </div>
-      <p>Synthetic batch telemetry pipeline with explicit Python quality gates, DuckDB persistence, dbt staging/mart models, quarantine reasons, and explainable OOS evidence.</p>
+      <p>Synthetic manufacturing telemetry pipeline with explicit Python quality gates, quarantine reasons, DuckDB persistence, dbt staging/mart models, deterministic data generation, and explainable OOS evidence.</p>
+      <p><b>Verified MVP:</b> 96 deterministic telemetry rows · 2 dbt models · 8 dbt data tests · 2 deterministic OOS signals</p>
       <p><b>Stack:</b> Python · DuckDB · dbt · pytest · GitHub Actions</p>
       <div align="center">
         <a href="https://github.com/alianisreyesr/gxp-batch-data-pipeline" aria-label="View GxP Batch Data Pipeline repository on GitHub"><b>View repository →</b></a>
       </div>
     </td>
-    <td width="33%" valign="top">
-      <div align="center">
-        <h3><a href="https://github.com/alianisreyesr/csa-assurance-planner">CSA Assurance Planner</a></h3>
-        <p><img src="https://img.shields.io/badge/Status-Scaffold-0A66C2?style=flat-square" alt="Status: Scaffold" /></p>
-      </div>
-      <p>Risk-based Computer Software Assurance planning system aligned with FDA CSA guidance and unscripted testing.</p>
-      <p><b>Planned stack:</b> Python · FastAPI · React · Assurance workflows</p>
-      <div align="center">
-        <a href="https://github.com/alianisreyesr/csa-assurance-planner" aria-label="View CSA Assurance Planner repository on GitHub"><b>View repository →</b></a>
-      </div>
-    </td>
-    <td width="33%" valign="top">
-      <div align="center">
-        <h3><a href="https://github.com/alianisreyesr/data-integrity-case-file">Data Integrity Case File</a></h3>
-        <p><img src="https://img.shields.io/badge/Status-Scaffold-0A66C2?style=flat-square" alt="Status: Scaffold" /></p>
-      </div>
-      <p>ALCOA+ investigation workspace and evidence ledger for deviation root-cause analysis and CAPA readiness.</p>
-      <p><b>Planned stack:</b> FastAPI · SQLite · Audit trail ledger</p>
-      <div align="center">
-        <a href="https://github.com/alianisreyesr/data-integrity-case-file" aria-label="View Data Integrity Case File repository on GitHub"><b>View repository →</b></a>
-      </div>
-    </td>
   </tr>
 </table>
+
+**Future portfolio directions:** risk-based Computer Software Assurance planning and data-integrity investigation workflows. These remain roadmap ideas until executable implementations and automated evidence are available.
 
 > Public portfolio projects use synthetic data to demonstrate engineering architectures and regulated quality patterns. They are portfolio/learning artifacts, not validated systems for regulated production decisions.
 
