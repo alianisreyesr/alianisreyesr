@@ -16,7 +16,6 @@
 
 <nav aria-label="Profile navigation">
   <a href="#flagship-quality--data-systems">Flagship Systems</a> · 
-  <a href="#growing-project">Growing Project</a> · 
   <a href="#engineering-pillars">Engineering Pillars</a> · 
   <a href="#technologies--tools">Technologies</a> · 
   <a href="#validation--assurance-principles">Quality Principles</a>
@@ -30,8 +29,8 @@ I build **traceable, testable data and workflow systems for regulated environmen
 
 <table aria-label="Key portfolio statistics">
   <tr>
-    <th scope="col" align="center" width="25%"><h3>3</h3><sub>Flagship quality systems</sub></th>
-    <th scope="col" align="center" width="25%"><h3>152</h3><sub>Automated tests across flagships</sub></th>
+    <th scope="col" align="center" width="25%"><h3>4</h3><sub>Flagship quality &amp; data systems</sub></th>
+    <th scope="col" align="center" width="25%"><h3>164</h3><sub>Automated code tests across flagships</sub></th>
     <th scope="col" align="center" width="25%"><h3>CI/CD</h3><sub>GitHub Actions · CodeQL · Docker</sub></th>
     <th scope="col" align="center" width="25%"><h3>GxP &amp; CSV</h3><sub>Traceability &amp; audit evidence</sub></th>
   </tr>
@@ -88,23 +87,19 @@ I build **traceable, testable data and workflow systems for regulated environmen
       </div>
     </td>
   </tr>
-</table>
-
-## Growing project
-
-<table aria-label="Growing engineering project">
   <tr>
-    <td width="100%" valign="top">
+    <td colspan="3" width="100%" valign="top">
       <div align="center">
         <h3><a href="https://github.com/alianisreyesr/gxp-batch-data-pipeline">GxP Batch Data Pipeline</a></h3>
         <p>
-          <img src="https://img.shields.io/badge/Status-Active_MVP-0A66C2?style=flat-square" alt="Status: Active MVP" />
-          <img src="https://img.shields.io/badge/Tests-6_pytest_%2B_8_dbt-0A66C2?style=flat-square" alt="Verification: 6 pytest and 8 dbt data tests" />
+          <img src="https://img.shields.io/badge/Status-Flagship-2E7D32?style=flat-square" alt="Status: Flagship" />
+          <img src="https://img.shields.io/badge/Tests-12_Python_%2B_8_dbt-2E7D32?style=flat-square" alt="Verification: 12 Python tests and 8 dbt data tests" />
+          <img src="https://img.shields.io/badge/Coverage-80.25%25-2E7D32?style=flat-square" alt="Python statement coverage: 80.25 percent" />
         </p>
       </div>
-      <p>Synthetic manufacturing telemetry pipeline with explicit Python quality gates, quarantine reasons, DuckDB persistence, dbt staging/mart models, deterministic data generation, and explainable OOS evidence.</p>
-      <p><b>Verified MVP:</b> 96 deterministic telemetry rows · 2 dbt models · 8 dbt data tests · 2 deterministic OOS signals</p>
-      <p><b>Stack:</b> Python · DuckDB · dbt · pytest · GitHub Actions</p>
+      <p>Evidence-producing synthetic manufacturing telemetry pipeline with one-command orchestration, explicit quality gates and quarantine reasons, DuckDB persistence, structured OOS evidence, source SHA-256 traceability, deterministic run manifests, and tested dbt transformations.</p>
+      <p><b>Verified evidence:</b> 96 generated · 96 accepted · 0 rejected · 2 OOS flags · 80% coverage gate · 2 dbt models · 8 dbt data tests</p>
+      <p><b>Architecture:</b> Python · DuckDB · dbt · pytest · GitHub Actions</p>
       <div align="center">
         <a href="https://github.com/alianisreyesr/gxp-batch-data-pipeline" aria-label="View GxP Batch Data Pipeline repository on GitHub"><b>View repository →</b></a>
       </div>
