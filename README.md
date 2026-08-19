@@ -16,7 +16,7 @@
 
 <nav aria-label="Profile navigation">
   <a href="#flagship-quality--data-systems">Flagship Systems</a> · 
-  <a href="#systems-in-development--pipelines">In Development</a> · 
+  <a href="#pipelines--systems-in-development">Pipelines &amp; Growth</a> · 
   <a href="#engineering-pillars">Engineering Pillars</a> · 
   <a href="#technologies--tools">Technologies</a> · 
   <a href="#validation--assurance-principles">Quality Principles</a>
@@ -26,14 +26,14 @@
 
 ## Engineering focus
 
-I build end-to-end data and workflow systems for environments where **traceability, explainability and validation matter**. My public repositories focus on regulated quality engineering: connecting SQL and Python pipelines, FastAPI services, modern React frontends, and containerized deployments with GAMP 5, ALCOA+ data integrity, and automated CI/CD quality gates.
+I build **traceable, testable data and workflow systems for regulated environments**. My public repositories connect SQL and Python pipelines, FastAPI services, modern React frontends, containerized deployments, and automated quality gates with GxP/CSV concepts such as requirements traceability, ALCOA+ data integrity, explainable risk rules, and audit-oriented evidence.
 
 <table aria-label="Key portfolio statistics">
   <tr>
     <th scope="col" align="center" width="25%"><h3>3</h3><sub>Flagship quality systems</sub></th>
-    <th scope="col" align="center" width="25%"><h3>125+</h3><sub>Automated tests in CI</sub></th>
+    <th scope="col" align="center" width="25%"><h3>152</h3><sub>Automated tests across flagships</sub></th>
     <th scope="col" align="center" width="25%"><h3>CI/CD</h3><sub>GitHub Actions · CodeQL · Docker</sub></th>
-    <th scope="col" align="center" width="25%"><h3>GxP &amp; CSV</h3><sub>Traceability &amp; audit trails</sub></th>
+    <th scope="col" align="center" width="25%"><h3>GxP &amp; CSV</h3><sub>Traceability &amp; audit evidence</sub></th>
   </tr>
 </table>
 
@@ -53,7 +53,7 @@ I build end-to-end data and workflow systems for environments where **traceabili
           <img src="https://img.shields.io/badge/Tests-68_passing-2E7D32?style=flat-square" alt="Test suite: 68 tests passing" />
         </p>
       </div>
-      <p>Controlled change lifecycle application with impact assessment, multi-role approval gates, immutable UTC audit trail, and release verification.</p>
+      <p>Controlled change lifecycle application with impact assessment, multi-role approval gates, append-oriented UTC activity history, and release verification.</p>
       <p><b>Architecture:</b> FastAPI · React 19 · TypeScript · SQLite · Docker</p>
       <div align="center">
         <a href="https://github.com/alianisreyesr/gxp-change-control" aria-label="View GxP Change Control repository on GitHub"><b>View repository →</b></a>
@@ -77,11 +77,11 @@ I build end-to-end data and workflow systems for environments where **traceabili
       <div align="center">
         <h3><a href="https://github.com/alianisreyesr/csv-evidence-tracker">CSV Evidence Tracker</a></h3>
         <p>
-          <img src="https://img.shields.io/badge/Status-Live-2E7D32?style=flat-square" alt="Status: Live" />
-          <img src="https://img.shields.io/badge/ALCOA+-Verified-2E7D32?style=flat-square" alt="Compliance: ALCOA+ verified" />
+          <img src="https://img.shields.io/badge/Release-v1.0.0-2E7D32?style=flat-square" alt="API release status: v1.0.0" />
+          <img src="https://img.shields.io/badge/Tests-27_passing-2E7D32?style=flat-square" alt="Backend test suite: 27 tests passing" />
         </p>
       </div>
-      <p>Computer System Validation tracking system covering Requirements Traceability Matrices (RTM), IQ/OQ/PQ execution patterns, and deviation logs.</p>
+      <p>Executable CSV evidence workflow with RTM and IQ/OQ/PQ patterns, 79.37% backend statement coverage, reproducible frontend builds, and Docker Compose smoke validation.</p>
       <p><b>Architecture:</b> FastAPI · React · SQLite · Docker · Nginx</p>
       <div align="center">
         <a href="https://github.com/alianisreyesr/csv-evidence-tracker" aria-label="View CSV Evidence Tracker repository on GitHub"><b>View repository →</b></a>
@@ -90,17 +90,20 @@ I build end-to-end data and workflow systems for environments where **traceabili
   </tr>
 </table>
 
-### Systems in development &amp; pipelines
+### Pipelines &amp; systems in development
 
 <table aria-label="Projects currently in development">
   <tr>
     <td width="33%" valign="top">
       <div align="center">
         <h3><a href="https://github.com/alianisreyesr/gxp-batch-data-pipeline">Batch Data Pipeline</a></h3>
-        <p><img src="https://img.shields.io/badge/Status-Scaffold-0A66C2?style=flat-square" alt="Status: Scaffold" /></p>
+        <p>
+          <img src="https://img.shields.io/badge/Status-Active_MVP-0A66C2?style=flat-square" alt="Status: Active MVP" />
+          <img src="https://img.shields.io/badge/Tests-6_pytest_%2B_8_dbt-0A66C2?style=flat-square" alt="Verification: 6 pytest and 8 dbt data tests" />
+        </p>
       </div>
-      <p>Manufacturing telemetry ETL pipeline with Great Expectations data contracts, dbt modeling, and DuckDB analytics.</p>
-      <p><b>Stack:</b> DuckDB · dbt · Great Expectations · Python</p>
+      <p>Synthetic batch telemetry pipeline with explicit Python quality gates, DuckDB persistence, dbt staging/mart models, quarantine reasons, and explainable OOS evidence.</p>
+      <p><b>Stack:</b> Python · DuckDB · dbt · pytest · GitHub Actions</p>
       <div align="center">
         <a href="https://github.com/alianisreyesr/gxp-batch-data-pipeline" aria-label="View GxP Batch Data Pipeline repository on GitHub"><b>View repository →</b></a>
       </div>
@@ -111,7 +114,7 @@ I build end-to-end data and workflow systems for environments where **traceabili
         <p><img src="https://img.shields.io/badge/Status-Scaffold-0A66C2?style=flat-square" alt="Status: Scaffold" /></p>
       </div>
       <p>Risk-based Computer Software Assurance planning system aligned with FDA CSA guidance and unscripted testing.</p>
-      <p><b>Stack:</b> Python · FastAPI · React · Assurance workflows</p>
+      <p><b>Planned stack:</b> Python · FastAPI · React · Assurance workflows</p>
       <div align="center">
         <a href="https://github.com/alianisreyesr/csa-assurance-planner" aria-label="View CSA Assurance Planner repository on GitHub"><b>View repository →</b></a>
       </div>
@@ -122,7 +125,7 @@ I build end-to-end data and workflow systems for environments where **traceabili
         <p><img src="https://img.shields.io/badge/Status-Scaffold-0A66C2?style=flat-square" alt="Status: Scaffold" /></p>
       </div>
       <p>ALCOA+ investigation workspace and evidence ledger for deviation root-cause analysis and CAPA readiness.</p>
-      <p><b>Stack:</b> FastAPI · SQLite · Audit trail ledger</p>
+      <p><b>Planned stack:</b> FastAPI · SQLite · Audit trail ledger</p>
       <div align="center">
         <a href="https://github.com/alianisreyesr/data-integrity-case-file" aria-label="View Data Integrity Case File repository on GitHub"><b>View repository →</b></a>
       </div>
@@ -130,7 +133,7 @@ I build end-to-end data and workflow systems for environments where **traceabili
   </tr>
 </table>
 
-> Public portfolio projects use synthetic data to demonstrate engineering architectures and regulated quality patterns.
+> Public portfolio projects use synthetic data to demonstrate engineering architectures and regulated quality patterns. They are portfolio/learning artifacts, not validated systems for regulated production decisions.
 
 <img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/section-divider.svg" width="100%" height="26" alt="" role="presentation" aria-hidden="true" />
 
