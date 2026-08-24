@@ -29,8 +29,8 @@ I build **traceable, testable data and workflow systems for regulated environmen
 
 <table aria-label="Key portfolio statistics">
   <tr>
-    <th scope="col" align="center" width="25%"><h3>4</h3><sub>Flagship quality &amp; data systems</sub></th>
-    <th scope="col" align="center" width="25%"><h3>164</h3><sub>Automated code tests across flagships</sub></th>
+    <th scope="col" align="center" width="25%"><h3>6</h3><sub>Flagship quality &amp; data systems</sub></th>
+    <th scope="col" align="center" width="25%"><h3>205</h3><sub>Automated code tests across flagships</sub></th>
     <th scope="col" align="center" width="25%"><h3>CI/CD</h3><sub>GitHub Actions · CodeQL · Docker</sub></th>
     <th scope="col" align="center" width="25%"><h3>GxP &amp; CSV</h3><sub>Traceability &amp; audit evidence</sub></th>
   </tr>
@@ -88,26 +88,50 @@ I build **traceable, testable data and workflow systems for regulated environmen
     </td>
   </tr>
   <tr>
-    <td colspan="3" width="100%" valign="top">
+    <td width="33%" valign="top">
       <div align="center">
         <h3><a href="https://github.com/alianisreyesr/gxp-batch-data-pipeline">GxP Batch Data Pipeline</a></h3>
         <p>
           <img src="https://img.shields.io/badge/Status-Flagship-2E7D32?style=flat-square" alt="Status: Flagship" />
           <img src="https://img.shields.io/badge/Tests-12_Python_%2B_8_dbt-2E7D32?style=flat-square" alt="Verification: 12 Python tests and 8 dbt data tests" />
-          <img src="https://img.shields.io/badge/Coverage-80.25%25-2E7D32?style=flat-square" alt="Python statement coverage: 80.25 percent" />
         </p>
       </div>
-      <p>Evidence-producing synthetic manufacturing telemetry pipeline with one-command orchestration, explicit quality gates and quarantine reasons, DuckDB persistence, structured OOS evidence, source SHA-256 traceability, deterministic run manifests, and tested dbt transformations.</p>
-      <p><b>Verified evidence:</b> 96 generated · 96 accepted · 0 rejected · 2 OOS flags · 80% coverage gate · 2 dbt models · 8 dbt data tests</p>
-      <p><b>Architecture:</b> Python · DuckDB · dbt · pytest · GitHub Actions</p>
+      <p>Synthetic manufacturing telemetry pipeline with quality gates, quarantine reasons, DuckDB, structured OOS evidence, SHA-256 source traceability, and tested dbt models.</p>
+      <p><b>Architecture:</b> Python · DuckDB · dbt · pytest</p>
       <div align="center">
         <a href="https://github.com/alianisreyesr/gxp-batch-data-pipeline" aria-label="View GxP Batch Data Pipeline repository on GitHub"><b>View repository →</b></a>
       </div>
     </td>
+    <td width="33%" valign="top">
+      <div align="center">
+        <h3><a href="https://github.com/alianisreyesr/data-integrity-case-file">Data Integrity Case File</a></h3>
+        <p>
+          <img src="https://img.shields.io/badge/Status-Active-2E7D32?style=flat-square" alt="Status: Active" />
+          <img src="https://img.shields.io/badge/Tests-34_passing-2E7D32?style=flat-square" alt="Test suite: 34 tests passing" />
+        </p>
+      </div>
+      <p>ALCOA+ investigation workspace with evidence log, CAPA items, append-oriented audit trail, and local LLM triage that never writes without human review.</p>
+      <p><b>Architecture:</b> FastAPI · React · SQLite · Ollama · Docker</p>
+      <div align="center">
+        <a href="https://github.com/alianisreyesr/data-integrity-case-file" aria-label="View Data Integrity Case File repository on GitHub"><b>View repository →</b></a>
+      </div>
+    </td>
+    <td width="33%" valign="top">
+      <div align="center">
+        <h3><a href="https://github.com/alianisreyesr/csa-assurance-planner">CSA Assurance Planner</a></h3>
+        <p>
+          <img src="https://img.shields.io/badge/Status-Active-2E7D32?style=flat-square" alt="Status: Active" />
+          <img src="https://img.shields.io/badge/Tests-7_passing-2E7D32?style=flat-square" alt="Test suite: 7 tests passing" />
+        </p>
+      </div>
+      <p>Risk-based Computer Software Assurance planner: intended use, GAMP category, requirement-level assurance class, QA review, and UTC audit history.</p>
+      <p><b>Architecture:</b> FastAPI · React · TypeScript · SQLite · Docker</p>
+      <div align="center">
+        <a href="https://github.com/alianisreyesr/csa-assurance-planner" aria-label="View CSA Assurance Planner repository on GitHub"><b>View repository →</b></a>
+      </div>
+    </td>
   </tr>
 </table>
-
-**Future portfolio directions:** risk-based Computer Software Assurance planning and data-integrity investigation workflows. These remain roadmap ideas until executable implementations and automated evidence are available.
 
 > Public portfolio projects use synthetic data to demonstrate engineering architectures and regulated quality patterns. They are portfolio/learning artifacts, not validated systems for regulated production decisions.
 
