@@ -84,6 +84,24 @@ I build **traceable, testable data and workflow systems for regulated environmen
     </td>
     <td width="33%" valign="top">
       <div align="center">
+        <h3><a href="https://github.com/alianisreyesr/gxp-batch-data-pipeline">GxP Batch Data Pipeline</a></h3>
+        <p>
+          <img src="https://img.shields.io/badge/Status-Flagship-2E7D32?style=flat-square" alt="Status: Flagship" />
+          <img src="https://img.shields.io/badge/Tests-12_Python_%2B_8_dbt-2E7D32?style=flat-square" alt="Verification: 12 Python tests and 8 dbt data tests" />
+        </p>
+      </div>
+      <p>Synthetic manufacturing telemetry pipeline with quality gates, quarantine reasons, DuckDB, structured OOS evidence, SHA-256 source traceability, and tested dbt models.</p>
+      <p><b>Architecture:</b> Python · DuckDB · dbt · pytest</p>
+      <div align="center">
+        <a href="https://github.com/alianisreyesr/gxp-batch-data-pipeline#one-command-pipeline"><b>Demo guide</b></a> ·
+        <a href="https://github.com/alianisreyesr/gxp-batch-data-pipeline/blob/main/docs/CASE_STUDY.md"><b>Case study</b></a> ·
+        <a href="https://github.com/alianisreyesr/gxp-batch-data-pipeline"><b>Source</b></a>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <div align="center">
         <h3><a href="https://github.com/alianisreyesr/csv-evidence-tracker">CSV Evidence Tracker</a></h3>
         <p>
           <img src="https://img.shields.io/badge/Release-v1.0.0-2E7D32?style=flat-square" alt="API release status: v1.0.0" />
@@ -96,24 +114,6 @@ I build **traceable, testable data and workflow systems for regulated environmen
         <a href="https://github.com/alianisreyesr/csv-evidence-tracker/blob/main/docs/PORTFOLIO_DEMO.md"><b>Demo guide</b></a> ·
         <a href="https://github.com/alianisreyesr/csv-evidence-tracker/blob/main/docs/CASE_STUDY.md"><b>Case study</b></a> ·
         <a href="https://github.com/alianisreyesr/csv-evidence-tracker"><b>Source</b></a>
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td width="33%" valign="top">
-      <div align="center">
-        <h3><a href="https://github.com/alianisreyesr/gxp-batch-data-pipeline">GxP Batch Data Pipeline</a></h3>
-        <p>
-          <img src="https://img.shields.io/badge/Status-Flagship-2E7D32?style=flat-square" alt="Status: Flagship" />
-          <img src="https://img.shields.io/badge/Tests-12_Python_%2B_8_dbt-2E7D32?style=flat-square" alt="Verification: 12 Python tests and 8 dbt data tests" />
-        </p>
-      </div>
-      <p>Synthetic manufacturing telemetry pipeline with quality gates, quarantine reasons, DuckDB, structured OOS evidence, SHA-256 source traceability, and tested dbt models.</p>
-      <p><b>Architecture:</b> Python · DuckDB · dbt · pytest</p>
-      <div align="center">
-        <a href="https://github.com/alianisreyesr/gxp-batch-data-pipeline#one-command-pipeline"><b>Run evidence</b></a> ·
-        <a href="https://github.com/alianisreyesr/gxp-batch-data-pipeline/blob/main/docs/CASE_STUDY.md"><b>Case study</b></a> ·
-        <a href="https://github.com/alianisreyesr/gxp-batch-data-pipeline"><b>Source</b></a>
       </div>
     </td>
     <td width="33%" valign="top">
