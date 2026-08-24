@@ -155,6 +155,20 @@ I build **traceable, testable data and workflow systems for regulated environmen
 
 <img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/section-divider.svg" width="100%" height="26" alt="" role="presentation" aria-hidden="true" />
 
+## Expanding beyond regulated systems
+
+My quality-engineering background is a differentiator, not a boundary. These new portfolio tracks apply the same emphasis on trustworthy data, tested software, and explainable decisions to broader business domains.
+
+| Project | Business domain | Engineering signal | Roles supported |
+|---|---|---|---|
+| [Retail Operations Data Platform](https://github.com/alianisreyesr/retail-operations-data-platform) | Retail, inventory, fulfillment | DuckDB pipeline, rejects, reconciliation, KPI mart | Data Engineer · Analytics Engineer · BI Developer |
+| [Service Operations Command Center](https://github.com/alianisreyesr/service-operations-command-center) | SaaS and technology operations | FastAPI, SLA rules, lifecycle API, Docker | Backend Engineer · Software Engineer · Platform Engineer |
+| [AI Document Intelligence Evaluator](https://github.com/alianisreyesr/ai-document-intelligence-evaluator) | Applied AI and knowledge systems | Citation, grounding, cost, latency, human-review evaluation | AI Application Engineer · AI Quality Engineer · Data Scientist |
+
+[View the portfolio expansion roadmap](docs/PORTFOLIO_EXPANSION_PLAN.md)
+
+<img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/section-divider.svg" width="100%" height="26" alt="" role="presentation" aria-hidden="true" />
+
 ## Engineering pillars
 
 <table aria-label="Core engineering disciplines">
