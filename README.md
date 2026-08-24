@@ -30,7 +30,7 @@ I build **traceable, testable data and workflow systems for regulated environmen
 <table aria-label="Key portfolio statistics">
   <tr>
     <th scope="col" align="center" width="25%"><h3>6</h3><sub>Flagship quality &amp; data systems</sub></th>
-    <th scope="col" align="center" width="25%"><h3>205</h3><sub>Automated code tests across flagships</sub></th>
+    <th scope="col" align="center" width="25%"><h3>260</h3><sub>Automated code tests across flagships</sub></th>
     <th scope="col" align="center" width="25%"><h3>CI/CD</h3><sub>GitHub Actions · CodeQL · Docker</sub></th>
     <th scope="col" align="center" width="25%"><h3>GxP &amp; CSV</h3><sub>Traceability &amp; audit evidence</sub></th>
   </tr>
@@ -63,7 +63,7 @@ I build **traceable, testable data and workflow systems for regulated environmen
         <h3><a href="https://github.com/alianisreyesr/quality-deviation-risk-monitor">Deviation Risk Monitor</a></h3>
         <p>
           <img src="https://img.shields.io/badge/Status-Active-2E7D32?style=flat-square" alt="Status: Active" />
-          <img src="https://img.shields.io/badge/Tests-57_passing-2E7D32?style=flat-square" alt="Test suite: 57 tests passing" />
+          <img src="https://img.shields.io/badge/Tests-112_passing-2E7D32?style=flat-square" alt="Test suite: 112 tests passing" />
         </p>
       </div>
       <p>Proactive deviation monitoring system with explainable risk scoring, reviewer triage workflow, append-only audit trail, and synthetic data pipeline.</p>
