@@ -23,6 +23,14 @@
 
 </div>
 
+## Quality data engineering for regulated environments
+
+I turn regulated workflow and manufacturing-data problems into **traceable, testable software** using Python, SQL, FastAPI, React, Docker, and automated quality gates.
+
+**Open to:** Quality Data Engineer, Data Engineer, CSV/CSA, GxP Systems, and technical consulting opportunities · **Based in:** Puerto Rico · **Open to relocation and remote work**
+
+**Contact:** [LinkedIn](https://www.linkedin.com/in/alianis-reyes-reyes/) · [Digital portfolio](https://poplme.co/hash/aJvjFE0Z/1/es)
+
 ## Engineering focus
 
 I build **traceable, testable data and workflow systems for regulated environments**. My public repositories connect SQL and Python pipelines, FastAPI services, modern React frontends, containerized deployments, and automated quality gates with GxP/CSV concepts such as requirements traceability, ALCOA+ data integrity, explainable risk rules, and audit-oriented evidence.
@@ -30,13 +38,11 @@ I build **traceable, testable data and workflow systems for regulated environmen
 <table aria-label="Key portfolio statistics">
   <tr>
     <th scope="col" align="center" width="25%"><h3>6</h3><sub>Flagship quality &amp; data systems</sub></th>
-    <th scope="col" align="center" width="25%"><h3>260</h3><sub>Automated code tests across flagships</sub></th>
+    <th scope="col" align="center" width="25%"><h3>Tested</h3><sub>Automated suites across flagships</sub></th>
     <th scope="col" align="center" width="25%"><h3>CI/CD</h3><sub>GitHub Actions · CodeQL · Docker</sub></th>
     <th scope="col" align="center" width="25%"><h3>GxP &amp; CSV</h3><sub>Traceability &amp; audit evidence</sub></th>
   </tr>
 </table>
-
-<img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/career-flow.svg" width="100%" alt="Career signal diagram: A four-stage progression from technical foundations and data products to quality governance and measured impact." />
 
 <img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/section-divider.svg" width="100%" height="26" alt="" role="presentation" aria-hidden="true" />
 
@@ -55,7 +61,9 @@ I build **traceable, testable data and workflow systems for regulated environmen
       <p>Controlled change lifecycle application with impact assessment, multi-role approval gates, append-oriented UTC activity history, and release verification.</p>
       <p><b>Architecture:</b> FastAPI · React 19 · TypeScript · SQLite · Docker</p>
       <div align="center">
-        <a href="https://github.com/alianisreyesr/gxp-change-control" aria-label="View GxP Change Control repository on GitHub"><b>View repository →</b></a>
+        <a href="https://github.com/alianisreyesr/gxp-change-control#quick-start"><b>Demo guide</b></a> ·
+        <a href="https://github.com/alianisreyesr/gxp-change-control/blob/main/docs/CASE_STUDY.md"><b>Case study</b></a> ·
+        <a href="https://github.com/alianisreyesr/gxp-change-control"><b>Source</b></a>
       </div>
     </td>
     <td width="33%" valign="top">
@@ -69,7 +77,9 @@ I build **traceable, testable data and workflow systems for regulated environmen
       <p>Proactive deviation monitoring system with explainable risk scoring, reviewer triage workflow, append-only audit trail, and synthetic data pipeline.</p>
       <p><b>Architecture:</b> Python · FastAPI · React · SQLite · Docker</p>
       <div align="center">
-        <a href="https://github.com/alianisreyesr/quality-deviation-risk-monitor" aria-label="View Deviation Risk Monitor repository on GitHub"><b>View repository →</b></a>
+        <a href="https://github.com/alianisreyesr/quality-deviation-risk-monitor#quick-start"><b>Demo guide</b></a> ·
+        <a href="https://github.com/alianisreyesr/quality-deviation-risk-monitor/blob/main/docs/CASE_STUDY.md"><b>Case study</b></a> ·
+        <a href="https://github.com/alianisreyesr/quality-deviation-risk-monitor"><b>Source</b></a>
       </div>
     </td>
     <td width="33%" valign="top">
@@ -83,7 +93,9 @@ I build **traceable, testable data and workflow systems for regulated environmen
       <p>Executable CSV evidence workflow with RTM and IQ/OQ/PQ patterns, 79.37% backend statement coverage, reproducible frontend builds, and Docker Compose smoke validation.</p>
       <p><b>Architecture:</b> FastAPI · React · SQLite · Docker · Nginx</p>
       <div align="center">
-        <a href="https://github.com/alianisreyesr/csv-evidence-tracker" aria-label="View CSV Evidence Tracker repository on GitHub"><b>View repository →</b></a>
+        <a href="https://github.com/alianisreyesr/csv-evidence-tracker/blob/main/docs/PORTFOLIO_DEMO.md"><b>Demo guide</b></a> ·
+        <a href="https://github.com/alianisreyesr/csv-evidence-tracker/blob/main/docs/CASE_STUDY.md"><b>Case study</b></a> ·
+        <a href="https://github.com/alianisreyesr/csv-evidence-tracker"><b>Source</b></a>
       </div>
     </td>
   </tr>
@@ -99,7 +111,9 @@ I build **traceable, testable data and workflow systems for regulated environmen
       <p>Synthetic manufacturing telemetry pipeline with quality gates, quarantine reasons, DuckDB, structured OOS evidence, SHA-256 source traceability, and tested dbt models.</p>
       <p><b>Architecture:</b> Python · DuckDB · dbt · pytest</p>
       <div align="center">
-        <a href="https://github.com/alianisreyesr/gxp-batch-data-pipeline" aria-label="View GxP Batch Data Pipeline repository on GitHub"><b>View repository →</b></a>
+        <a href="https://github.com/alianisreyesr/gxp-batch-data-pipeline#one-command-pipeline"><b>Run evidence</b></a> ·
+        <a href="https://github.com/alianisreyesr/gxp-batch-data-pipeline/blob/main/docs/CASE_STUDY.md"><b>Case study</b></a> ·
+        <a href="https://github.com/alianisreyesr/gxp-batch-data-pipeline"><b>Source</b></a>
       </div>
     </td>
     <td width="33%" valign="top">
@@ -113,7 +127,9 @@ I build **traceable, testable data and workflow systems for regulated environmen
       <p>ALCOA+ investigation workspace with evidence log, CAPA items, append-oriented audit trail, and local LLM triage that never writes without human review.</p>
       <p><b>Architecture:</b> FastAPI · React · SQLite · Ollama · Docker</p>
       <div align="center">
-        <a href="https://github.com/alianisreyesr/data-integrity-case-file" aria-label="View Data Integrity Case File repository on GitHub"><b>View repository →</b></a>
+        <a href="https://github.com/alianisreyesr/data-integrity-case-file#quick-start"><b>Demo guide</b></a> ·
+        <a href="https://github.com/alianisreyesr/data-integrity-case-file/blob/main/docs/CASE_STUDY.md"><b>Case study</b></a> ·
+        <a href="https://github.com/alianisreyesr/data-integrity-case-file"><b>Source</b></a>
       </div>
     </td>
     <td width="33%" valign="top">
@@ -127,7 +143,9 @@ I build **traceable, testable data and workflow systems for regulated environmen
       <p>Risk-based Computer Software Assurance planner: intended use, GAMP category, requirement-level assurance class, QA review, and UTC audit history.</p>
       <p><b>Architecture:</b> FastAPI · React · TypeScript · SQLite · Docker</p>
       <div align="center">
-        <a href="https://github.com/alianisreyesr/csa-assurance-planner" aria-label="View CSA Assurance Planner repository on GitHub"><b>View repository →</b></a>
+        <a href="https://github.com/alianisreyesr/csa-assurance-planner#quick-start"><b>Demo guide</b></a> ·
+        <a href="https://github.com/alianisreyesr/csa-assurance-planner/blob/main/docs/CASE_STUDY.md"><b>Case study</b></a> ·
+        <a href="https://github.com/alianisreyesr/csa-assurance-planner"><b>Source</b></a>
       </div>
     </td>
   </tr>
@@ -161,6 +179,10 @@ I build **traceable, testable data and workflow systems for regulated environmen
     </td>
   </tr>
 </table>
+
+## Resumen en español
+
+Diseño sistemas de datos y flujos de trabajo auditables para entornos regulados. Este portafolio demuestra ingeniería con Python, SQL, FastAPI y React, junto con trazabilidad, integridad de datos ALCOA+, CSV/CSA y controles automatizados. Todos los datos son sintéticos y los proyectos son prototipos educativos, no sistemas GxP validados.
 
 <img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/section-divider.svg" width="100%" height="26" alt="" role="presentation" aria-hidden="true" />
 
