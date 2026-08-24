@@ -194,10 +194,6 @@ My quality-engineering background is a differentiator, not a boundary. These new
   </tr>
 </table>
 
-## Resumen en español
-
-Diseño sistemas de datos y flujos de trabajo auditables para entornos regulados. Este portafolio demuestra ingeniería con Python, SQL, FastAPI y React, junto con trazabilidad, integridad de datos ALCOA+, CSV/CSA y controles automatizados. Todos los datos son sintéticos y los proyectos son prototipos educativos, no sistemas GxP validados.
-
 <img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/section-divider.svg" width="100%" height="26" alt="" role="presentation" aria-hidden="true" />
 
 ## Technologies &amp; tools
