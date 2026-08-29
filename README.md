@@ -27,7 +27,7 @@ Information Systems senior graduating **December 2026** — pursuing entry-level
 <table>
   <tr>
     <td align="center" width="25%"><h3>6+</h3><sub>Flagship quality systems</sub></td>
-    <td align="center" width="25%"><h3>260+</h3><sub>Automated tests in CI</sub></td>
+    <td align="center" width="25%"><h3>300+</h3><sub>Automated tests in CI</sub></td>
     <td align="center" width="25%"><h3>CI/CD</h3><sub>GitHub Actions · CodeQL · Docker</sub></td>
     <td align="center" width="25%"><h3>GxP &amp; CSV</h3><sub>Traceability &amp; audit trails</sub></td>
   </tr>
@@ -44,7 +44,7 @@ Information Systems senior graduating **December 2026** — pursuing entry-level
         <h3><a href="https://github.com/alianisreyesr/csv-evidence-tracker">CSV Evidence Tracker</a></h3>
         <p>
           <img src="https://img.shields.io/badge/Status-Live-2E7D32?style=flat-square" alt="Status Live" />
-          <img src="https://img.shields.io/badge/ALCOA+-Verified-2E7D32?style=flat-square" alt="ALCOA+ Verified" />
+          <img src="https://img.shields.io/badge/ALCOA+-Attributable_Audit_Trail-2E7D32?style=flat-square" alt="ALCOA+ Attributable Audit Trail" />
         </p>
       </div>
       <p>Computer System Validation tracking system covering Requirements Traceability Matrices (RTM), IQ/OQ/PQ execution patterns, deviation logs, and a 21 CFR Part 11-aligned audit trail.</p>
@@ -103,7 +103,10 @@ Information Systems senior graduating **December 2026** — pursuing entry-level
     <td width="33%" valign="top">
       <div align="center">
         <h3><a href="https://github.com/alianisreyesr/csa-assurance-planner">CSA Assurance Planner</a></h3>
-        <p><img src="https://img.shields.io/badge/Status-Active-0A66C2?style=flat-square" alt="Status Active" /></p>
+        <p>
+          <img src="https://img.shields.io/badge/Status-Active-0A66C2?style=flat-square" alt="Status Active" />
+          <img src="https://img.shields.io/badge/Tests-11_passing-0A66C2?style=flat-square" alt="11 Tests" />
+        </p>
       </div>
       <p>Risk-based Computer Software Assurance planning system aligned with FDA CSA guidance, risk classification, and unscripted testing strategies.</p>
       <p><b>Architecture:</b> Python · FastAPI · React · Structured assurance workflows</p>
@@ -114,7 +117,10 @@ Information Systems senior graduating **December 2026** — pursuing entry-level
     <td width="33%" valign="top">
       <div align="center">
         <h3><a href="https://github.com/alianisreyesr/data-integrity-case-file">Data Integrity Case File</a></h3>
-        <p><img src="https://img.shields.io/badge/Status-Active-0A66C2?style=flat-square" alt="Status Active" /></p>
+        <p>
+          <img src="https://img.shields.io/badge/Status-Active-0A66C2?style=flat-square" alt="Status Active" />
+          <img src="https://img.shields.io/badge/Tests-36_passing-0A66C2?style=flat-square" alt="36 Tests" />
+        </p>
       </div>
       <p>ALCOA+ investigation workspace and evidence ledger for deviation root-cause analysis, audit trail review, and CAPA readiness.</p>
       <p><b>Architecture:</b> FastAPI · SQLite · Audit trail evidence ledger</p>
