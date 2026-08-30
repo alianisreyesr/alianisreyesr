@@ -24,6 +24,8 @@ I build end-to-end data and workflow systems for environments where **traceabili
 
 Information Systems senior graduating **December 2026** — pursuing entry-level roles in Quality Data Engineering, CSV, Data Engineering, Analytics Engineering, IT Compliance/GRC, and BI Automation. Experience informed by work at **TechLilly** and **OcyonBio**.
 
+<img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/career-flow.svg" width="100%" alt="Career signal: systems foundations, to data products, to quality systems, to measured impact" />
+
 <table>
   <tr>
     <td align="center" width="25%"><h3>6+</h3><sub>Flagship quality systems</sub></td>
@@ -55,6 +57,8 @@ See each repo's merged PR for the full audit trail.
 <img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/section-divider.svg" width="100%" height="26" alt="" />
 
 ## Flagship quality &amp; data systems
+
+<img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/architecture-pattern.svg" width="100%" alt="Shared architecture pattern: React interface calls a FastAPI service, which writes to SQLite/DuckDB and an append-only audit trail, gated by CI" />
 
 <table>
   <tr>

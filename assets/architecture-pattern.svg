@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="300" viewBox="0 0 1280 300" role="img" aria-labelledby="title desc">
+  <title id="title">The shared architecture pattern across the portfolio</title>
+  <desc id="desc">React interface calls a FastAPI service, which writes through to a SQL store and an append-only audit trail, all gated by automated tests and CI before release.</desc>
+  <defs>
+    <linearGradient id="archPanel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070c18"/><stop offset="50%" stop-color="#0d152e"/><stop offset="100%" stop-color="#140c28"/></linearGradient>
+    <linearGradient id="archFlow" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2aa8ad"/><stop offset="0.5" stop-color="#4b82d0"/><stop offset="1" stop-color="#7842df"/></linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#4b6a92"/>
+    </marker>
+  </defs>
+
+  <rect x="1.5" y="1.5" width="1277" height="297" rx="24" fill="url(#archPanel)" stroke="url(#archFlow)" stroke-opacity="0.35" stroke-width="2"/>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" text-anchor="middle">
+    <text x="640" y="46" fill="#8fa4c3" font-size="13" font-weight="700" letter-spacing="3">ONE PATTERN, SIX SYSTEMS</text>
+    <text x="640" y="76" fill="#f4f7fb" font-size="22" font-weight="700">Every flagship system is built the same auditable way</text>
+  </g>
+
+  <!-- main pipeline row -->
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+    <!-- React client -->
+    <rect x="70" y="120" width="190" height="80" rx="14" fill="#0f1a30" stroke="#2aa8ad" stroke-width="1.5"/>
+    <text x="165" y="152" text-anchor="middle" fill="#f3f6fb" font-size="15" font-weight="700">React interface</text>
+    <text x="165" y="172" text-anchor="middle" fill="#91a3c0" font-size="12">Human review &amp; approval</text>
+
+    <path d="M262 160 H340" stroke="url(#archFlow)" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <!-- FastAPI service -->
+    <rect x="342" y="120" width="200" height="80" rx="14" fill="#0f1a30" stroke="#3d96bd" stroke-width="1.5"/>
+    <text x="442" y="152" text-anchor="middle" fill="#f3f6fb" font-size="15" font-weight="700">FastAPI service</text>
+    <text x="442" y="172" text-anchor="middle" fill="#91a3c0" font-size="12">Validation &amp; business rules</text>
+
+    <path d="M544 160 H622" stroke="url(#archFlow)" stroke-width="3" marker-end="url(#arrow)"/>
+
+    <!-- SQL store -->
+    <rect x="624" y="120" width="200" height="80" rx="14" fill="#0f1a30" stroke="#586fc9" stroke-width="1.5"/>
+    <text x="724" y="152" text-anchor="middle" fill="#f3f6fb" font-size="15" font-weight="700">SQLite / DuckDB</text>
+    <text x="724" y="172" text-anchor="middle" fill="#91a3c0" font-size="12">Transactional writes</text>
+
+    <!-- audit trail branch, off the API box -->
+    <path d="M442 202 V232 Q442 252 462 252 H840" stroke="#7842df" stroke-width="2.5" stroke-dasharray="1 0" marker-end="url(#arrow)" fill="none"/>
+    <rect x="842" y="222" width="220" height="60" rx="14" fill="#0f1a30" stroke="#7842df" stroke-width="1.5"/>
+    <text x="952" y="248" text-anchor="middle" fill="#f3f6fb" font-size="14" font-weight="700">Append-only audit trail</text>
+    <text x="952" y="266" text-anchor="middle" fill="#91a3c0" font-size="11">Who, what, when (UTC) — never overwritten</text>
+
+    <!-- CI gate branch, off the store box -->
+    <path d="M724 122 V96 Q724 76 744 76 H1000" stroke="#2aa8ad" stroke-width="2.5" marker-end="url(#arrow)" fill="none"/>
+    <rect x="1002" y="46" width="210" height="60" rx="14" fill="#0f1a30" stroke="#2aa8ad" stroke-width="1.5"/>
+    <text x="1107" y="72" text-anchor="middle" fill="#f3f6fb" font-size="14" font-weight="700">CI quality gate</text>
+    <text x="1107" y="90" text-anchor="middle" fill="#91a3c0" font-size="11">Tests + CodeQL block a bad merge</text>
+
+    <!-- pulse markers -->
+    <circle cx="165" cy="160" r="4" fill="#2aa8ad"><animate attributeName="opacity" values="1;0.3;1" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="442" cy="160" r="4" fill="#3d96bd"><animate attributeName="opacity" values="1;0.3;1" dur="2.6s" begin="0.5s" repeatCount="indefinite"/></circle>
+    <circle cx="724" cy="160" r="4" fill="#586fc9"><animate attributeName="opacity" values="1;0.3;1" dur="2.6s" begin="1s" repeatCount="indefinite"/></circle>
+    <circle cx="952" cy="252" r="4" fill="#7842df"><animate attributeName="opacity" values="1;0.3;1" dur="2.6s" begin="1.5s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>
