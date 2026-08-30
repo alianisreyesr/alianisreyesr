@@ -410,10 +410,68 @@ def render_html(user: dict, repos: list[dict], lang_rows: list[dict], topic_rows
 """
 
 
+SVG_LANG_COLORS = {
+    "Python": "#1F7A4D",
+    "JavaScript": "#0A66C2",
+    "TypeScript": "#3E7BD6",
+    "HTML": "#D97757",
+    "CSS": "#7C6FE0",
+    "SQL": "#C4941F",
+    "Shell": "#6B8E5A",
+    "Dockerfile": "#4C9AC9",
+}
+SVG_FALLBACK_COLORS = ["#1F7A4D", "#0A66C2", "#C4941F", "#7C6FE0", "#D97757", "#6B8E5A"]
+
+
+def render_svg(user: dict, repos: list[dict], lang_rows: list[dict]) -> str:
+    """A compact, static SVG version of the stats card — unlike the HTML
+    card, GitHub's markdown renderer displays this directly inline via a
+    plain <img> tag, no iframe or JS required."""
+    non_fork = [r for r in repos if not r.get("fork")]
+    portfolio_repos = sum(1 for r in non_fork if "portfolio" in (r.get("topics") or []))
+    generated_on = datetime.now(timezone.utc).strftime("%b %d, %Y")
+
+    width, height = 480, 200
+    bar_x, bar_w = 190, 250
+    row_h = 24
+    rows_svg = []
+    for i, row in enumerate(lang_rows[:5]):
+        y = 78 + i * row_h
+        color = SVG_LANG_COLORS.get(row["name"], SVG_FALLBACK_COLORS[i % len(SVG_FALLBACK_COLORS)])
+        filled = max(2, round(bar_w * row["pct"] / 100))
+        rows_svg.append(f"""
+  <text x="20" y="{y + 5}" font-family="IBM Plex Mono, monospace" font-size="12" fill="#5B6B7C">{esc(row['name'])}</text>
+  <rect x="{bar_x}" y="{y - 6}" width="{bar_w}" height="8" rx="4" fill="#ECE9DF" />
+  <rect x="{bar_x}" y="{y - 6}" width="{filled}" height="8" rx="4" fill="{color}" />
+  <text x="{bar_x + bar_w + 10}" y="{y + 5}" font-family="IBM Plex Mono, monospace" font-size="12" fill="#5B6B7C">{row['pct']}%</text>""")
+
+    stats = [
+        (str(user.get("public_repos", 0)), "Public repos"),
+        (str(portfolio_repos), "Portfolio systems"),
+        (str(user.get("followers", 0)), "Followers"),
+    ]
+    stat_w = 150
+    stats_svg = []
+    for i, (value, label) in enumerate(stats):
+        x = 20 + i * stat_w
+        stats_svg.append(f"""
+  <text x="{x}" y="46" font-family="IBM Plex Sans, sans-serif" font-size="22" font-weight="700" fill="#10202E">{esc(value)}</text>
+  <text x="{x}" y="62" font-family="IBM Plex Mono, monospace" font-size="10" letter-spacing="0.05em" fill="#93A0AC">{esc(label.upper())}</text>""")
+
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-label="GitHub stats for @{esc(user['login'])}">
+  <rect x="0.5" y="0.5" width="{width - 1}" height="{height - 1}" rx="14" fill="#FFFFFF" stroke="#E3DFD3" />
+  <line x1="0" y1="70" x2="{width}" y2="70" stroke="#E3DFD3" />
+  {"".join(stats_svg)}
+  {"".join(rows_svg)}
+  <text x="20" y="{height - 14}" font-family="IBM Plex Mono, monospace" font-size="10" fill="#93A0AC">Live snapshot · {generated_on}</text>
+</svg>
+"""
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("username", nargs="?", default=DEFAULT_USERNAME, help=f"GitHub username (default: {DEFAULT_USERNAME})")
-    parser.add_argument("--output", default="stats-card.html", help="Output HTML file path (default: stats-card.html)")
+    parser.add_argument("--output", default="stats-card.html", help="Output file path — .html for the full interactive card, .svg for a compact card embeddable directly in a README via <img> (default: stats-card.html)")
     parser.add_argument("--token", default=os.environ.get("GITHUB_TOKEN"), help="GitHub token (or set GITHUB_TOKEN env var); optional but raises the rate limit")
     args = parser.parse_args()
 
@@ -422,13 +480,17 @@ def main() -> None:
     repos = fetch_public_repos(args.username, args.token)
     print(f"  {len(repos)} public repos found; fetching per-repo language stats...", file=sys.stderr)
     lang_rows = build_language_rows(repos, args.token)
-    topic_rows = build_topic_rows(repos)
-    print("  downloading avatar...", file=sys.stderr)
-    avatar_data_uri = fetch_avatar_data_uri(user["avatar_url"])
 
-    html = render_html(user, repos, lang_rows, topic_rows, avatar_data_uri)
+    if args.output.lower().endswith(".svg"):
+        output = render_svg(user, repos, lang_rows)
+    else:
+        topic_rows = build_topic_rows(repos)
+        print("  downloading avatar...", file=sys.stderr)
+        avatar_data_uri = fetch_avatar_data_uri(user["avatar_url"])
+        output = render_html(user, repos, lang_rows, topic_rows, avatar_data_uri)
+
     with open(args.output, "w", encoding="utf-8") as f:
-        f.write(html)
+        f.write(output)
     print(f"Wrote {args.output}", file=sys.stderr)
 
 

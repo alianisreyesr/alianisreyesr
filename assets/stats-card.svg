@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="200" viewBox="0 0 480 200" role="img" aria-label="GitHub stats for @alianisreyesr">
+  <rect x="0.5" y="0.5" width="479" height="199" rx="14" fill="#FFFFFF" stroke="#E3DFD3" />
+  <line x1="0" y1="70" x2="480" y2="70" stroke="#E3DFD3" />
+  
+  <text x="20" y="46" font-family="IBM Plex Sans, sans-serif" font-size="22" font-weight="700" fill="#10202E">13</text>
+  <text x="20" y="62" font-family="IBM Plex Mono, monospace" font-size="10" letter-spacing="0.05em" fill="#93A0AC">PUBLIC REPOS</text>
+  <text x="170" y="46" font-family="IBM Plex Sans, sans-serif" font-size="22" font-weight="700" fill="#10202E">9</text>
+  <text x="170" y="62" font-family="IBM Plex Mono, monospace" font-size="10" letter-spacing="0.05em" fill="#93A0AC">PORTFOLIO SYSTEMS</text>
+  <text x="320" y="46" font-family="IBM Plex Sans, sans-serif" font-size="22" font-weight="700" fill="#10202E">1</text>
+  <text x="320" y="62" font-family="IBM Plex Mono, monospace" font-size="10" letter-spacing="0.05em" fill="#93A0AC">FOLLOWERS</text>
+  
+  <text x="20" y="83" font-family="IBM Plex Mono, monospace" font-size="12" fill="#5B6B7C">Python</text>
+  <rect x="190" y="72" width="250" height="8" rx="4" fill="#ECE9DF" />
+  <rect x="190" y="72" width="225" height="8" rx="4" fill="#1F7A4D" />
+  <text x="450" y="83" font-family="IBM Plex Mono, monospace" font-size="12" fill="#5B6B7C">90%</text>
+  <text x="20" y="107" font-family="IBM Plex Mono, monospace" font-size="12" fill="#5B6B7C">JavaScript</text>
+  <rect x="190" y="96" width="250" height="8" rx="4" fill="#ECE9DF" />
+  <rect x="190" y="96" width="25" height="8" rx="4" fill="#0A66C2" />
+  <text x="450" y="107" font-family="IBM Plex Mono, monospace" font-size="12" fill="#5B6B7C">10%</text>
+  <text x="20" y="186" font-family="IBM Plex Mono, monospace" font-size="10" fill="#93A0AC">Live snapshot · Aug 30, 2026</text>
+</svg>

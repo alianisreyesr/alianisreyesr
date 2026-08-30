@@ -14,7 +14,7 @@
   <img src="https://img.shields.io/badge/Relocation-Open_to_Relocate-7842df?style=flat-square" alt="Relocation" />
 </p>
 
-[Flagship Systems](#flagship-quality--data-systems) · [Beyond Pharma](#beyond-pharma) · [Engineering Pillars](#engineering-pillars) · [Technologies](#technologies--tools) · [Quality Principles](#validation--assurance-principles)
+[Flagship Systems](#flagship-quality--data-systems) · [Recent Hardening](#recent-hardening) · [Beyond Pharma](#beyond-pharma) · [Engineering Pillars](#engineering-pillars) · [Technologies](#technologies--tools) · [Quality Principles](#validation--assurance-principles)
 
 </div>
 
@@ -32,6 +32,25 @@ Information Systems senior graduating **December 2026** — pursuing entry-level
     <td align="center" width="25%"><h3>GxP &amp; CSV</h3><sub>Traceability &amp; audit trails</sub></td>
   </tr>
 </table>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/stats-card.svg" alt="Live GitHub stats for @alianisreyesr — public repos, portfolio systems, followers, and language footprint" />
+</p>
+<p align="center"><sub>Regenerated weekly straight from the GitHub API by <a href="scripts/generate_stats_card.py"><code>scripts/generate_stats_card.py</code></a> — <a href="https://claude.ai/code/artifact/7a6d6d96-2d4e-4b9d-81bd-1efcc4805f4f">full interactive version →</a></sub></p>
+
+<img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/section-divider.svg" width="100%" height="26" alt="" />
+
+## Recent hardening
+
+Every flagship system below just went through a self-run audit — bugs, security, and quality issues found and fixed, verified with live smoke tests, then merged:
+
+- Closed a **TOCTOU race** in deviation status transitions (`quality-deviation-risk-monitor`) using a `BEGIN IMMEDIATE` transaction; verified with a 10-thread concurrent stress test.
+- Fixed **broken end-to-end auth** in the one project with real login (`csv-evidence-tracker`): an unprotected write endpoint, a frontend that never sent its JWT, and plaintext password comparisons — now bcrypt-hashed with timing-safe checks.
+- Wired an **unused explainable risk-scoring function** into the actual deviation-creation path (`csa-assurance-planner`) so `risk_score`/`risk_classification` are computed and persisted, not just defined.
+- Fixed a **DuckDB `executemany()` empty-list crash** and a cross-store inventory blending bug in the retail analytics pipeline.
+- Rewrote a README that documented an entirely different API than the one shipping.
+
+See each repo's merged PR for the full audit trail.
 
 <img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/section-divider.svg" width="100%" height="26" alt="" />
 
