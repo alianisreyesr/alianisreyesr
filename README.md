@@ -64,7 +64,7 @@ See each repo's merged PR for the full audit trail.
   <tr>
     <td width="33%" valign="top">
       <div align="center">
-        <h3><a href="https://github.com/alianisreyesr/csv-evidence-tracker">CSV Evidence Tracker</a></h3>
+        <h3><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2E7D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px"><rect x="6" y="4" width="12" height="17" rx="2"/><path d="M9 4V3a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1"/><path d="M9 12l2 2 4-4"/></svg> <a href="https://github.com/alianisreyesr/csv-evidence-tracker">CSV Evidence Tracker</a></h3>
         <p>
           <img src="https://img.shields.io/badge/Status-Live-2E7D32?style=flat-square" alt="Status Live" />
           <img src="https://img.shields.io/badge/ALCOA+-Attributable_Audit_Trail-2E7D32?style=flat-square" alt="ALCOA+ Attributable Audit Trail" />
@@ -78,7 +78,7 @@ See each repo's merged PR for the full audit trail.
     </td>
     <td width="33%" valign="top">
       <div align="center">
-        <h3><a href="https://github.com/alianisreyesr/gxp-change-control">GxP Change Control</a></h3>
+        <h3><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2E7D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px"><circle cx="6" cy="6" r="2.5"/><circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="12" r="2.5"/><path d="M6 8.5V15.5"/><path d="M8.2 7.2c3.5 1 6.8 2.7 7.6 4.8"/></svg> <a href="https://github.com/alianisreyesr/gxp-change-control">GxP Change Control</a></h3>
         <p>
           <img src="https://img.shields.io/badge/Release-v1.0.0-2E7D32?style=flat-square" alt="Release v1.0.0" />
           <img src="https://img.shields.io/badge/Tests-68_passing-2E7D32?style=flat-square" alt="68 Tests" />
@@ -92,7 +92,7 @@ See each repo's merged PR for the full audit trail.
     </td>
     <td width="33%" valign="top">
       <div align="center">
-        <h3><a href="https://github.com/alianisreyesr/quality-deviation-risk-monitor">Deviation Risk Monitor</a></h3>
+        <h3><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2E7D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px"><path d="M12 3l10 18H2z"/><path d="M12 10v4"/><circle cx="12" cy="17.5" r="0.6" fill="#2E7D32"/></svg> <a href="https://github.com/alianisreyesr/quality-deviation-risk-monitor">Deviation Risk Monitor</a></h3>
         <p>
           <img src="https://img.shields.io/badge/Status-Active-2E7D32?style=flat-square" alt="Status Active" />
           <img src="https://img.shields.io/badge/Tests-112_passing-2E7D32?style=flat-square" alt="112 Tests" />
@@ -111,7 +111,7 @@ See each repo's merged PR for the full audit trail.
   <tr>
     <td width="33%" valign="top">
       <div align="center">
-        <h3><a href="https://github.com/alianisreyesr/gxp-batch-data-pipeline">GxP Batch Data Pipeline</a></h3>
+        <h3><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2E7D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px"><rect x="2" y="9" width="6" height="6" rx="1.5"/><rect x="16" y="9" width="6" height="6" rx="1.5"/><path d="M8 12h4"/><path d="M12 12v-4a2 2 0 0 1 2-2h2"/><path d="M12 12v4a2 2 0 0 0 2 2h2"/></svg> <a href="https://github.com/alianisreyesr/gxp-batch-data-pipeline">GxP Batch Data Pipeline</a></h3>
         <p>
           <img src="https://img.shields.io/badge/Status-Active-2E7D32?style=flat-square" alt="Status Active" />
           <img src="https://img.shields.io/badge/dbt-Quality_Gates-2E7D32?style=flat-square" alt="dbt" />
@@ -125,7 +125,7 @@ See each repo's merged PR for the full audit trail.
     </td>
     <td width="33%" valign="top">
       <div align="center">
-        <h3><a href="https://github.com/alianisreyesr/csa-assurance-planner">CSA Assurance Planner</a></h3>
+        <h3><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0A66C2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px"><path d="M12 2l8 3.5v6c0 5-3.5 8.5-8 10.5-4.5-2-8-5.5-8-10.5v-6z"/><path d="M9 12l2 2 4-4.5"/></svg> <a href="https://github.com/alianisreyesr/csa-assurance-planner">CSA Assurance Planner</a></h3>
         <p>
           <img src="https://img.shields.io/badge/Status-Active-0A66C2?style=flat-square" alt="Status Active" />
           <img src="https://img.shields.io/badge/Tests-11_passing-0A66C2?style=flat-square" alt="11 Tests" />
@@ -139,7 +139,7 @@ See each repo's merged PR for the full audit trail.
     </td>
     <td width="33%" valign="top">
       <div align="center">
-        <h3><a href="https://github.com/alianisreyesr/data-integrity-case-file">Data Integrity Case File</a></h3>
+        <h3><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0A66C2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px"><path d="M3 5.5A1.5 1.5 0 0 1 4.5 4H9l2 2.5h8.5A1.5 1.5 0 0 1 21 8v9.5A1.5 1.5 0 0 1 19.5 19h-15A1.5 1.5 0 0 1 3 17.5z"/><circle cx="13" cy="13" r="2.4"/><path d="M15 15l2.2 2.2"/></svg> <a href="https://github.com/alianisreyesr/data-integrity-case-file">Data Integrity Case File</a></h3>
         <p>
           <img src="https://img.shields.io/badge/Status-Active-0A66C2?style=flat-square" alt="Status Active" />
           <img src="https://img.shields.io/badge/Tests-36_passing-0A66C2?style=flat-square" alt="36 Tests" />
@@ -164,7 +164,7 @@ See each repo's merged PR for the full audit trail.
   <tr>
     <td width="50%" valign="top">
       <div align="center">
-        <h3><a href="https://github.com/alianisreyesr/retail-operations-data-platform">Retail Operations Data Platform</a></h3>
+        <h3><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2E7D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px"><path d="M4 20V10"/><path d="M12 20V4"/><path d="M20 20v-7"/><path d="M2 20h20"/></svg> <a href="https://github.com/alianisreyesr/retail-operations-data-platform">Retail Operations Data Platform</a></h3>
         <p><img src="https://img.shields.io/badge/Status-Active-2E7D32?style=flat-square" alt="Status Active" /></p>
       </div>
       <p>Analytics engineering pipeline with DuckDB, tested quality gates, dimensional metrics, and decision-ready inventory evidence.</p>
@@ -175,7 +175,7 @@ See each repo's merged PR for the full audit trail.
     </td>
     <td width="50%" valign="top">
       <div align="center">
-        <h3><a href="https://github.com/alianisreyesr/ai-document-intelligence-evaluator">AI Document Intelligence Evaluator</a></h3>
+        <h3><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2E7D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px"><rect x="4" y="3" width="12" height="16" rx="1.5"/><path d="M7 8h6"/><path d="M7 11.5h6"/><path d="M7 15h3"/><circle cx="18" cy="17" r="3.4"/><path d="M20.4 19.4L22 21"/></svg> <a href="https://github.com/alianisreyesr/ai-document-intelligence-evaluator">AI Document Intelligence Evaluator</a></h3>
         <p><img src="https://img.shields.io/badge/Status-Active-2E7D32?style=flat-square" alt="Status Active" /></p>
       </div>
       <p>Provider-neutral AI evaluation harness for citations, evidence coverage, groundedness, latency, cost, and human review workflows.</p>
