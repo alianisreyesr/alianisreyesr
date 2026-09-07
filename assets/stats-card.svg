@@ -11,16 +11,16 @@
   
   <text x="20" y="83" font-family="IBM Plex Mono, monospace" font-size="12" fill="#5B6B7C">Python</text>
   <rect x="190" y="72" width="250" height="8" rx="4" fill="#ECE9DF" />
-  <rect x="190" y="72" width="142" height="8" rx="4" fill="#1F7A4D" />
-  <text x="450" y="83" font-family="IBM Plex Mono, monospace" font-size="12" fill="#5B6B7C">57%</text>
+  <rect x="190" y="72" width="145" height="8" rx="4" fill="#1F7A4D" />
+  <text x="450" y="83" font-family="IBM Plex Mono, monospace" font-size="12" fill="#5B6B7C">58%</text>
   <text x="20" y="107" font-family="IBM Plex Mono, monospace" font-size="12" fill="#5B6B7C">JavaScript</text>
   <rect x="190" y="96" width="250" height="8" rx="4" fill="#ECE9DF" />
-  <rect x="190" y="96" width="58" height="8" rx="4" fill="#0A66C2" />
-  <text x="450" y="107" font-family="IBM Plex Mono, monospace" font-size="12" fill="#5B6B7C">23%</text>
+  <rect x="190" y="96" width="60" height="8" rx="4" fill="#0A66C2" />
+  <text x="450" y="107" font-family="IBM Plex Mono, monospace" font-size="12" fill="#5B6B7C">24%</text>
   <text x="20" y="131" font-family="IBM Plex Mono, monospace" font-size="12" fill="#5B6B7C">TypeScript</text>
   <rect x="190" y="120" width="250" height="8" rx="4" fill="#ECE9DF" />
-  <rect x="190" y="120" width="32" height="8" rx="4" fill="#3E7BD6" />
-  <text x="450" y="131" font-family="IBM Plex Mono, monospace" font-size="12" fill="#5B6B7C">13%</text>
+  <rect x="190" y="120" width="28" height="8" rx="4" fill="#3E7BD6" />
+  <text x="450" y="131" font-family="IBM Plex Mono, monospace" font-size="12" fill="#5B6B7C">11%</text>
   <text x="20" y="155" font-family="IBM Plex Mono, monospace" font-size="12" fill="#5B6B7C">CSS</text>
   <rect x="190" y="144" width="250" height="8" rx="4" fill="#ECE9DF" />
   <rect x="190" y="144" width="15" height="8" rx="4" fill="#7C6FE0" />
@@ -29,5 +29,5 @@
   <rect x="190" y="168" width="250" height="8" rx="4" fill="#ECE9DF" />
   <rect x="190" y="168" width="2" height="8" rx="4" fill="#D97757" />
   <text x="450" y="179" font-family="IBM Plex Mono, monospace" font-size="12" fill="#5B6B7C">1%</text>
-  <text x="20" y="186" font-family="IBM Plex Mono, monospace" font-size="10" fill="#93A0AC">Live snapshot · Aug 31, 2026</text>
+  <text x="20" y="186" font-family="IBM Plex Mono, monospace" font-size="10" fill="#93A0AC">Live snapshot · Sep 07, 2026</text>
 </svg>
