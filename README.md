@@ -26,7 +26,7 @@ I turn operational requirements into tested software: Python and SQL pipelines, 
 
 <table>
   <tr>
-    <td align="center" width="25%"><h3>8</h3><sub>Public engineering repos</sub></td>
+    <td align="center" width="25%"><h3>10</h3><sub>Public engineering repos</sub></td>
     <td align="center" width="25%"><h3>CI/CD</h3><sub>GitHub Actions · CodeQL · Docker</sub></td>
     <td align="center" width="25%"><h3>Full-Stack</h3><sub>FastAPI · React · TypeScript</sub></td>
     <td align="center" width="25%"><h3>GxP &amp; AI</h3><sub>Regulated systems &amp; AI evaluation</sub></td>
@@ -51,7 +51,7 @@ I turn operational requirements into tested software: Python and SQL pipelines, 
         <h3><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2E7D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px"><path d="M12 3l10 18H2z"/><path d="M12 10v4"/><circle cx="12" cy="17.5" r="0.6" fill="#2E7D32"/></svg> <a href="https://github.com/alianisreyesr/quality-deviation-risk-monitor">Quality Deviation Risk Monitor</a></h3>
         <p>
           <img src="https://img.shields.io/badge/Status-Active-2E7D32?style=flat-square" alt="Status Active" />
-          <img src="https://img.shields.io/badge/Tests-112_passing-2E7D32?style=flat-square" alt="112 Tests" />
+          <img src="https://img.shields.io/badge/Tests-202_passing-2E7D32?style=flat-square" alt="202 Tests" />
         </p>
       </div>
       <p><b>Proves:</b> full-stack risk analytics and production-minded backend design. Explainable scoring, CAPA workflows, append-only audit trail, and data-quality diagnostics.</p>
@@ -65,7 +65,7 @@ I turn operational requirements into tested software: Python and SQL pipelines, 
         <h3><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2E7D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px"><circle cx="6" cy="6" r="2.5"/><circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="12" r="2.5"/><path d="M6 8.5V15.5"/><path d="M8.2 7.2c3.5 1 6.8 2.7 7.6 4.8"/></svg> <a href="https://github.com/alianisreyesr/gxp-change-control">GxP Change Control</a></h3>
         <p>
           <img src="https://img.shields.io/badge/Release-v1.0.0-2E7D32?style=flat-square" alt="Release v1.0.0" />
-          <img src="https://img.shields.io/badge/Tests-68_passing-2E7D32?style=flat-square" alt="68 Tests" />
+          <img src="https://img.shields.io/badge/Tests-78_passing-2E7D32?style=flat-square" alt="78 Tests" />
         </p>
       </div>
       <p><b>Proves:</b> secure workflow and validation engineering. Controlled transitions, role-aware approvals, JSON Schema, and immutable UTC activity history.</p>
@@ -153,6 +153,31 @@ I turn operational requirements into tested software: Python and SQL pipelines, 
         <a href="https://github.com/alianisreyesr/retail-operations-data-platform"><b>View repository →</b></a>
       </div>
     </td>
+    <td width="33%" valign="top">
+      <div align="center">
+        <h3><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2E7D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px"><path d="M4 20V10"/><path d="M12 20V4"/><path d="M20 20v-7"/><path d="M2 20h20"/></svg> <a href="https://github.com/alianisreyesr/service-operations-command-center">Service Operations Command Center</a></h3>
+        <p><img src="https://img.shields.io/badge/Status-Active-2E7D32?style=flat-square" alt="Status Active" /></p>
+      </div>
+      <p>Portfolio-safe service operations API for incident intake, severity-based SLA targets, controlled status transitions, owner assignment, audit events, and a Streamlit command-center dashboard.</p>
+      <p><b>Stack:</b> Python · FastAPI · Streamlit · Docker</p>
+      <div align="center">
+        <a href="https://github.com/alianisreyesr/service-operations-command-center"><b>View repository →</b></a>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <div align="center">
+        <h3><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#0A66C2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px"><path d="M12 2l8 3.5v6c0 5-3.5 8.5-8 10.5-4.5-2-8-5.5-8-10.5v-6z"/><path d="M9 12l2 2 4-4.5"/></svg> <a href="https://github.com/alianisreyesr/ai-security-analyst">AI Security Analyst</a></h3>
+        <p><img src="https://img.shields.io/badge/Status-Active-0A66C2?style=flat-square" alt="Status Active" /></p>
+      </div>
+      <p>Security operations platform (v1.0.0) that ingests JSON, CSV, auth, web and firewall logs, applies deterministic detection and explainable 0–100 risk scoring with MITRE ATT&amp;CK mapping, and uses AI only for bounded, validated analyst summaries.</p>
+      <p><b>Stack:</b> Python · FastAPI · React · PostgreSQL · Docker</p>
+      <div align="center">
+        <a href="https://github.com/alianisreyesr/ai-security-analyst"><b>View repository →</b></a>
+      </div>
+    </td>
+    <td width="33%" valign="top"></td>
     <td width="33%" valign="top"></td>
   </tr>
 </table>
