@@ -1,38 +1,28 @@
 # Security Policy
 
+This repository is a GitHub profile README and portfolio index. It contains no running service and no user data. Each project repository under [@alianisreyesr](https://github.com/alianisreyesr) maintains its own `SECURITY.md`; where a repository has none, this policy applies.
+
 ## Scope
 
-AI Security Analyst processes untrusted security telemetry, uploaded files, network identifiers, and AI-generated analysis. Security issues should be treated as first-class engineering work.
+- Portfolio projects use **synthetic data only** and are demonstrations of engineering patterns, not production systems.
+- Credentials found in documentation or UI code of the demo projects are demo placeholders. They must never be reused outside a local demo.
+- Please do not publish real credentials, tokens, private infrastructure details, or exploitable details of private systems in public issues.
+
+## Reporting a vulnerability
+
+1. Preferred: open a private report through the repository's **Security > Report a vulnerability** tab (GitHub private vulnerability reporting), when enabled.
+2. Otherwise, open an issue with sanitized details only and ask for a private channel. Do not include exploit code, secrets, or personal data.
+
+I aim to acknowledge reports within 7 days. These are personal portfolio projects maintained on a best-effort basis, so no formal SLA applies.
 
 ## Supported versions
 
-Before v1.0, only the current development branch is supported.
+Only the latest commit on `main` of each repository is supported. Tagged releases, if any, are listed in each repository's `CHANGELOG.md`.
 
-## Reporting
+## Baseline controls across the portfolio
 
-Do not publish real credentials, API keys, tokens, private infrastructure details, sensitive production logs, or exploitable private-system information in public issues.
+- Secret scanning in CI (gitleaks) and CodeQL analysis where configured.
+- Dependabot for dependency and GitHub Actions updates.
+- Synthetic or sanitized sample data only.
 
-For ordinary bugs, use the Bug Report template with sanitized evidence.
-
-## Data handling rules
-
-- Use synthetic or sanitized sample logs in the repository.
-- Never commit secrets.
-- Treat uploaded log content as untrusted input.
-- Treat LLM output as untrusted and non-authoritative.
-- Deterministic evidence and detection logic remain the source of truth.
-- Human approval is required before any future blocking/enforcement action.
-- Avoid storing unnecessary sensitive data.
-
-## AI-specific security
-
-The project should defend against:
-- Prompt injection embedded in log content
-- Unsupported or hallucinated threat claims
-- AI output being mistaken for deterministic evidence
-- Leakage of secrets into model prompts
-- Unbounded input sizes or resource usage
-
-## Dependency security
-
-Dependencies should be pinned or constrained appropriately and checked with automated dependency/security scanning before v1.0.
+See [`docs/PORTFOLIO_REPO_STANDARD.md`](docs/PORTFOLIO_REPO_STANDARD.md) for the common repository standard.

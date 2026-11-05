@@ -36,7 +36,7 @@ I turn operational requirements into tested software: Python and SQL pipelines, 
 <p align="center">
   <img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/stats-card.svg" alt="Live GitHub stats for @alianisreyesr — public repos, portfolio systems, followers, and language footprint" />
 </p>
-<p align="center"><sub>Regenerated weekly straight from the GitHub API by <a href="scripts/generate_stats_card.py"><code>scripts/generate_stats_card.py</code></a> — <a href="https://claude.ai/code/artifact/7a6d6d96-2d4e-4b9d-81bd-1efcc4805f4f">full interactive version →</a></sub></p>
+<p align="center"><sub>Regenerated weekly straight from the GitHub API by <a href="scripts/generate_stats_card.py"><code>scripts/generate_stats_card.py</code></a></sub></p>
 
 <img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/section-divider.svg" width="100%" height="26" alt="" />
 
@@ -51,7 +51,7 @@ I turn operational requirements into tested software: Python and SQL pipelines, 
         <h3><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2E7D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px"><path d="M12 3l10 18H2z"/><path d="M12 10v4"/><circle cx="12" cy="17.5" r="0.6" fill="#2E7D32"/></svg> <a href="https://github.com/alianisreyesr/quality-deviation-risk-monitor">Quality Deviation Risk Monitor</a></h3>
         <p>
           <img src="https://img.shields.io/badge/Status-Active-2E7D32?style=flat-square" alt="Status Active" />
-          <img src="https://img.shields.io/badge/Tests-202_passing-2E7D32?style=flat-square" alt="202 Tests" />
+          <img src="https://github.com/alianisreyesr/quality-deviation-risk-monitor/actions/workflows/ci.yml/badge.svg" alt="CI status" />
         </p>
       </div>
       <p><b>Proves:</b> full-stack risk analytics and production-minded backend design. Explainable scoring, CAPA workflows, append-only audit trail, and data-quality diagnostics.</p>
@@ -64,12 +64,12 @@ I turn operational requirements into tested software: Python and SQL pipelines, 
       <div align="center">
         <h3><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2E7D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px"><circle cx="6" cy="6" r="2.5"/><circle cx="6" cy="18" r="2.5"/><circle cx="18" cy="12" r="2.5"/><path d="M6 8.5V15.5"/><path d="M8.2 7.2c3.5 1 6.8 2.7 7.6 4.8"/></svg> <a href="https://github.com/alianisreyesr/gxp-change-control">GxP Change Control</a></h3>
         <p>
-          <img src="https://img.shields.io/badge/Release-v1.0.0-2E7D32?style=flat-square" alt="Release v1.0.0" />
-          <img src="https://img.shields.io/badge/Tests-78_passing-2E7D32?style=flat-square" alt="78 Tests" />
+          <img src="https://img.shields.io/badge/Status-Active-2E7D32?style=flat-square" alt="Status Active" />
+          <img src="https://github.com/alianisreyesr/gxp-change-control/actions/workflows/ci.yml/badge.svg" alt="CI status" />
         </p>
       </div>
       <p><b>Proves:</b> secure workflow and validation engineering. Controlled transitions, role-aware approvals, JSON Schema, and immutable UTC activity history.</p>
-      <p><b>Architecture:</b> FastAPI · React 19 · TypeScript · SQLite · Docker</p>
+      <p><b>Architecture:</b> FastAPI · React · TypeScript · SQLite · Docker</p>
       <div align="center">
         <a href="https://github.com/alianisreyesr/gxp-change-control"><b>View repository →</b></a>
       </div>

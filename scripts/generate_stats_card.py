@@ -4,7 +4,7 @@
 Fetches real, live data from the public GitHub REST API for a given user
 (profile info, public repos, per-repo language byte counts, repo topics)
 and renders it into a single self-contained HTML file styled to match the
-card published at https://claude.ai/code/artifact/7a6d6d96-2d4e-4b9d-81bd-1efcc4805f4f
+portfolio profile card (see assets/stats-card.svg)
 
 No third-party packages required — only the Python standard library.
 
