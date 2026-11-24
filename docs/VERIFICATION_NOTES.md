@@ -7,7 +7,7 @@ Scope: portfolio consistency pass (medium and low priority items) across the pro
 - Action tags exist upstream (checked with `git ls-remote --tags`): `actions/checkout` v7, `actions/setup-python` v7, `github/codeql-action` v4, `actions/upload-artifact` v7, `gitleaks/gitleaks-action` v2 (and v2.3.9).
 - All 11 local clones were on `main` and up to date with `origin/main` before changes.
 - Workflow YAML added or edited in the profile repo parses correctly.
-- `LICENSE` holder is now `Alianis Reyes-Reyes` in all 11 repos (profile gained a new LICENSE).
+- `LICENSE` holder is now `Alianis Reyes Reyes` in all 11 repos (profile gained a new LICENSE).
 - The profile `SECURITY.md`, `docs/GITHUB_PROJECT_STRUCTURE.md` and pull request template no longer contain AI Security Analyst-specific content.
 - The "Portfolio Ecosystem" tables in the project READMEs link all 10 projects (excluding the repo itself) and contain no hard-coded test counts.
 

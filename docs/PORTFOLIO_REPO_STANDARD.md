@@ -7,7 +7,7 @@ Common baseline for every project repository under [@alianisreyesr](https://gith
 | File | Requirement |
 |---|---|
 | `README.md` | Purpose, quick start, architecture, test/CI badges (workflow badges, no hard-coded test counts), synthetic-data boundary, "Portfolio Ecosystem" table linking the other portfolio repos |
-| `LICENSE` | MIT, holder `Alianis Reyes-Reyes` (hyphenated, identical in every repo) |
+| `LICENSE` | MIT, holder `Alianis Reyes Reyes` (no hyphen, identical in every repo and in the README display name) |
 | `SECURITY.md` | Project-specific scope, how to report, supported versions, data-handling rules |
 | `CONTRIBUTING.md` | Branching and commit conventions that match how the repo is actually maintained |
 | `CHANGELOG.md` | Keep a Changelog format with `[Unreleased]` and one entry per released version; versions must match `pyproject`/app version and git tags |

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Regenerate the "Reyes-Reyes Ledger" GitHub profile stats card.
+"""Regenerate the "Reyes Reyes Ledger" GitHub profile stats card.
 
 Fetches real, live data from the public GitHub REST API for a given user
 (profile info, public repos, per-repo language byte counts, repo topics)
@@ -197,7 +197,7 @@ def render_html(user: dict, repos: list[dict], lang_rows: list[dict], topic_rows
         f"(GitHub's linguist byte counts, not just each repo's single primary label)."
     )
 
-    return f"""<title>Reyes-Reyes Ledger</title>
+    return f"""<title>Reyes Reyes Ledger</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 <style>
   :root {{
