@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/profile-header.svg" width="100%" alt="Alianis Reyes-Reyes — Data, AI and Quality Systems Engineer" />
+<img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/profile-header.svg" width="100%" alt="Alianis Reyes Reyes — Data, AI and Quality Systems Engineer" />
 
 <p align="center">
   <a href="https://www.linkedin.com/in/alianis-reyes-reyes/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
@@ -11,7 +11,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Education-B.S.B.A._Information_Systems_(Dec_2026)-0A66C2?style=flat-square" alt="Education" />
   <img src="https://img.shields.io/badge/Focus-Data%2C_AI_%26_Quality_Systems-2E7D32?style=flat-square" alt="Focus" />
-  <img src="https://img.shields.io/badge/Relocation-Open_to_Relocate-7842df?style=flat-square" alt="Relocation" />
 </p>
 
 [Flagship Projects](#flagship-projects) · [Supporting Projects](#supporting-projects) · [Engineering Pillars](#engineering-pillars) · [Technology](#technology) · [Quality Principles](#validation--assurance-principles)
@@ -20,7 +19,7 @@
 
 ## Engineering focus
 
-I turn operational requirements into tested software: Python and SQL pipelines, FastAPI services, React interfaces, explainable decision support, and traceable workflows. I graduate in **December 2026** and am pursuing entry-level opportunities in **Data Engineering, AI Engineering, Quality Engineering, Analytics Engineering, and IT Compliance/GRC**.
+I turn operational requirements into tested software: Python and SQL pipelines, FastAPI services, React interfaces, explainable decision support, and traceable workflows. This profile is where I publish the systems behind that work and the engineering notes that come out of building them: data-quality gates, risk-based validation, and measurable AI evaluation.
 
 <img src="https://raw.githubusercontent.com/alianisreyesr/alianisreyesr/main/assets/career-flow.svg" width="100%" alt="Career signal: systems foundations, to data products, to quality systems, to measured impact" />
 
@@ -158,7 +157,7 @@ I turn operational requirements into tested software: Python and SQL pipelines, 
         <h3><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2E7D32" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px"><path d="M4 20V10"/><path d="M12 20V4"/><path d="M20 20v-7"/><path d="M2 20h20"/></svg> <a href="https://github.com/alianisreyesr/service-operations-command-center">Service Operations Command Center</a></h3>
         <p><img src="https://img.shields.io/badge/Status-Active-2E7D32?style=flat-square" alt="Status Active" /></p>
       </div>
-      <p>Portfolio-safe service operations API for incident intake, severity-based SLA targets, controlled status transitions, owner assignment, audit events, and a Streamlit command-center dashboard.</p>
+      <p>Service operations API for incident intake, severity-based SLA targets, controlled status transitions, owner assignment, and audit events, with a Streamlit command-center dashboard (synthetic data).</p>
       <p><b>Stack:</b> Python · FastAPI · Streamlit · Docker</p>
       <div align="center">
         <a href="https://github.com/alianisreyesr/service-operations-command-center"><b>View repository →</b></a>
@@ -278,8 +277,8 @@ I am strengthening the flagship systems around production database migrations, r
 
 ### Building auditable systems from data to decision
 
-Open to internships and entry-level roles · Puerto Rico · Open to relocation
+Puerto Rico · Python · SQL · FastAPI · Regulated-systems quality
 
-For full professional background and career history, visit [LinkedIn](https://www.linkedin.com/in/alianis-reyes-reyes/) · [Digital portfolio](https://poplme.co/hash/aJvjFE0Z/1/es) · [All repositories](https://github.com/alianisreyesr?tab=repositories)
+Engineering notes and project write-ups on [LinkedIn](https://www.linkedin.com/in/alianis-reyes-reyes/recent-activity/all/) · [Digital portfolio](https://poplme.co/hash/aJvjFE0Z/1/es) · [All repositories](https://github.com/alianisreyesr?tab=repositories)
 
 </div>
