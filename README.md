@@ -271,7 +271,7 @@ Every system in this portfolio is built with verification and auditability at th
 
 ## Current direction
 
-I am strengthening the flagship systems around production database migrations, role-based authorization, observability, retrieval diagnostics, and reproducible performance evidence. Each repository includes setup instructions, architectural context, and validation evidence so an interviewer can run it and discuss the tradeoffs.
+I am strengthening the flagship systems around production database migrations, role-based authorization, observability, retrieval diagnostics, and reproducible performance evidence. Each repository includes setup instructions, architectural context, and validation evidence so a reviewer can run it and follow the tradeoffs.
 
 <div align="center">
 
